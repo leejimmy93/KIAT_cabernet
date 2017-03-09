@@ -32,7 +32,7 @@ bams=`ls Sample*/${chrom}.bam`
 echo ${chrom}
 echo ${bams}
 
-freebayes -f /share/malooflab/John/KIAT/Reference/Split_Chroms/${chrom}.fa ${bams} > share/malooflab/Ruijuan/505/vcf/${chrom}.vcf
+freebayes -f /share/malooflab/John/KIAT/Reference/Split_Chroms/${chrom}.fa ${bams} > /share/malooflab/Ruijuan/505/vcf/${chrom}.vcf
 
 end=`date +%s`
 runtime=$((end-start))
