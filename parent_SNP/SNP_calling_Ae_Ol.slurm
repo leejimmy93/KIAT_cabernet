@@ -17,12 +17,13 @@
 start=`date +%s`
 
 ## Load required modules
+source /home/ruijuanli/.bash_profile
 
 module load freebayes/v1.0.2-33-gdbb6160
 module load samtools/1.3
 cd /share/malooflab/Ruijuan/parent_SNP/SNP_calling/freebayes
 
-freebayes -f /share/malooflab/John/KIAT/Reference/Brassica_napus_v4.1.chromosomes.fa Ae_no_bolting_unique_mapped_rmdup.bam Ol_no_bolting_unique_mapped_rmdup.bam --genotype-qualities > Ae_Ol.vcf
+bamaddrg -b Ae_no_bolting_unique_mapped_rmdup.bam -s Ae -r Ae -b Ol_no_bolting_unique_mapped_rmdup.bam -s Ol -r Ol | freebayes -f /share/malooflab/John/KIAT/Reference/Brassica_napus_v4.1.chromosomes.fa --stdin --genotype-qualities > Ae_Ol.vcf
 
 end=`date +%s`
 runtime=$((end-start))
