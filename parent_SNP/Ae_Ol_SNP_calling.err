@@ -1,0 +1,7 @@
+Module freebayes-v1.0.2-33-gdbb6160-x86_64-linux-ubuntu14.04 loaded.
+Module samtools-1.3-x86_64-linux-ubuntu14.04 loaded. 
+/var/lib/slurm-llnl/slurmd/job4370889/slurm_script: line 26: bamaddrg: command not found
+ERROR(freebayes): Could not read BAM data from stdin
+BamMultiReader::Open: unable to open all files: 	
+	unable to open file: stdin
+
