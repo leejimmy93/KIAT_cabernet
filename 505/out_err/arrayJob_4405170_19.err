@@ -1,0 +1,14 @@
+Module trimmomatic-0.33-static loaded. 
+TrimmomaticPE: Started with arguments: Sample_505_K54/505_K54_1.fq.gz Sample_505_K54/505_K54_2.fq.gz Sample_505_K54/505_K54_paired_1.fq.gz Sample_505_K54/505_K54_unpaired_1.fq.gz Sample_505_K54/505_K54_paired_2.fq.gz Sample_505_K54/505_K54_unpaired_2.fq.gz ILLUMINACLIP:Bradseq_adapter.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:70
+Multiple cores found: Using 16 threads
+Using Medium Clipping Sequence: 'CCTACACGACGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATC'
+Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Medium Clipping Sequence: 'CAAGCAGAAGACGGCATACGA'
+Using Medium Clipping Sequence: 'AATGATACGGCGACCACCGA'
+Using Medium Clipping Sequence: 'ACAGGACATTCGTCGCTTCC'
+Using Medium Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGG'
+ILLUMINACLIP: Using 0 prefix pairs, 7 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 30458360 Both Surviving: 20004166 (65.68%) Forward Only Surviving: 9968585 (32.73%) Reverse Only Surviving: 286600 (0.94%) Dropped: 199009 (0.65%)
+TrimmomaticPE: Completed successfully
