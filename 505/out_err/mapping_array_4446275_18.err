@@ -1,0 +1,6 @@
+Module star-2.5.2b-x86_64-linux-ubuntu14.04 loaded. STAR is a RNA-Seq data aligner.
+
+EXITING because of FATAL ERROR: could not create output file: Sample_/Log.out
+Check if the path Sample_/ exists and you have permissions to write there
+
+Mar 28 11:56:43 ...... FATAL ERROR, exiting

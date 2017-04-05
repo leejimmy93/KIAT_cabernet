@@ -1,0 +1,4 @@
+ModuleCmd_Load.c(208):ERROR:105: Unable to locate a modulefile for 'star/2.5.2b'
+/var/lib/slurm-llnl/slurmd/job4443276/slurm_script: line 28: STAR: command not found
+/var/lib/slurm-llnl/slurmd/job4443276/slurm_script: line 32: --sjdbGTFfile: command not found
+/var/lib/slurm-llnl/slurmd/job4443276/slurm_script: line 38: --sjdbGTFtagExonParentTranscript: command not found

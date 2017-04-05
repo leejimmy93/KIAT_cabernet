@@ -1,0 +1,7 @@
+Module star-2.5.2b-x86_64-linux-ubuntu14.04 loaded. STAR is a RNA-Seq data aligner.
+
+ReadAlignChunk_processChunks.cpp:115:processChunks EXITING because of FATAL ERROR in input reads: unknown file format: the read ID should start with @ or > 
+
+Mar 28 11:50:46 ...... FATAL ERROR, exiting
+/var/lib/slurm-llnl/slurmd/job4443371/slurm_script: line 32: --sjdbGTFfile: command not found
+/var/lib/slurm-llnl/slurmd/job4443371/slurm_script: line 38: --sjdbGTFtagExonParentTranscript: command not found

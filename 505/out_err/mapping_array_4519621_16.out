@@ -1,0 +1,14 @@
+c0-28
+My SLURM_ARRAY_TASK_ID:  16
+505_K85
+Apr 01 10:33:45 ..... started STAR run
+Apr 01 10:33:46 ..... loading genome
+Apr 01 10:46:53 ..... processing annotations GTF
+Apr 01 10:47:15 ..... inserting junctions into the genome indices
+Apr 01 10:47:51 ..... started 1st pass mapping
+Apr 01 11:04:50 ..... finished 1st pass mapping
+Apr 01 11:04:59 ..... inserting junctions into the genome indices
+Apr 01 11:05:58 ..... started mapping
+Apr 01 11:53:03 ..... started sorting BAM
+Apr 01 12:28:06 ..... finished successfully
+6866 seconds to completion

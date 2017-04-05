@@ -1,0 +1,25 @@
+--2017-04-03 21:02:52--  ftp://FNP_KSJ:*password*@bioftp.org/TBD170151_20170328/Sample_505-K10
+           => ‘bioftp.org/TBD170151_20170328/.listing’
+Resolving bioftp.org (bioftp.org)... 59.18.159.44
+Connecting to bioftp.org (bioftp.org)|59.18.159.44|:21... connected.
+Logging in as FNP_KSJ ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /TBD170151_20170328 ... done.
+==> PASV ... done.    ==> LIST ... done.
+
+     0K ..                                                      744K=0.004s
+
+2017-04-03 21:02:53 (744 KB/s) - ‘bioftp.org/TBD170151_20170328/.listing’ saved [2773]
+
+unlink: No such file or directory
+--2017-04-03 21:02:54--  ftp://FNP_KSJ:*password*@bioftp.org/TBD170151_20170328/Sample_505-K10/Sample_505-K10
+           => ‘bioftp.org/TBD170151_20170328/Sample_505-K10/.listing’
+==> CWD (1) /TBD170151_20170328/Sample_505-K10 ... done.
+==> PASV ... done.    ==> LIST ... done.
+bioftp.org/TBD170151_20170328/Sample_505-K10: File exists
+     0K                                                        27.0M=0s
+
+2017-04-03 21:02:54 (27.0 MB/s) - ‘bioftp.org/TBD170151_20170328/Sample_505-K10/.listing’ saved [417]
+
+bioftp.org/TBD170151_20170328/Sample_505-K10/.listing: No such file or directory
+unlink: No such file or directory

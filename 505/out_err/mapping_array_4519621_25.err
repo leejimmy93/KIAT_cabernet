@@ -1,0 +1,2 @@
+/var/lib/slurm-llnl/slurmd/job4519645/slurm_script: /software/modules/3.2.10/x86_64-linux-ubuntu14.04/Modules/3.2.10/bin/modulecmd: No such file or directory
+/var/lib/slurm-llnl/slurmd/job4519645/slurm_script: line 28: STAR: command not found
