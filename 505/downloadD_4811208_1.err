@@ -1,0 +1,21 @@
+--2017-04-09 18:44:01--  ftp://FNP_KSJ:*password*@bioftp.org/TBD170151_20170331/Sample_505-K13
+           => ‘bioftp.org/TBD170151_20170331/.listing’
+Resolving bioftp.org (bioftp.org)... 59.18.159.44
+Connecting to bioftp.org (bioftp.org)|59.18.159.44|:21... connected.
+Logging in as FNP_KSJ ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /TBD170151_20170331 ... done.
+==> PASV ... done.    ==> LIST ... done.
+
+     0K                                                        47.0M=0s
+
+2017-04-09 18:44:03 (47.0 MB/s) - ‘bioftp.org/TBD170151_20170331/.listing’ saved [722]
+
+Removed ‘bioftp.org/TBD170151_20170331/.listing’.
+--2017-04-09 18:44:03--  ftp://FNP_KSJ:*password*@bioftp.org/TBD170151_20170331/Sample_505-K13
+           => ‘bioftp.org/TBD170151_20170331/Sample_505-K13’
+==> CWD not required.
+==> SIZE Sample_505-K13 ... done.
+==> PASV ... done.    ==> RETR Sample_505-K13 ... 
+No such file ‘Sample_505-K13’.
+
