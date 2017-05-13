@@ -1,7 +1,0 @@
-c0-42
-My SLURM_ARRAY_TASK_ID:  16
-505_K50
-Mar 28 11:44:42 ..... started STAR run
-Mar 28 11:44:43 ..... loading genome
-Mar 28 11:44:47 ..... started mapping
-6 seconds to completion

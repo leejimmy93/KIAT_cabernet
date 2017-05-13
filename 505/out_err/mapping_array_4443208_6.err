@@ -1,7 +1,0 @@
-Module star-2.5.2b-x86_64-linux-ubuntu14.04 loaded. STAR is a RNA-Seq data aligner.
-
-EXITING because of fatal ERROR: could not make temporary directory: ./_STARtmp/
-SOLUTION: (i) please check the path and writing permissions 
- (ii) if you specified --outTmpDir, and this directory exists - please remove it before running STAR
-
-Mar 28 11:02:38 ...... FATAL ERROR, exiting

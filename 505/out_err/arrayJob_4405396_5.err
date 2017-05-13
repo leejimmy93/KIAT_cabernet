@@ -1,5 +1,0 @@
-Module freebayes-v1.0.2-33-gdbb6160-x86_64-linux-ubuntu14.04 loaded.
-Module samtools-1.3-x86_64-linux-ubuntu14.04 loaded. 
-sed: can't read chrom_list: No such file or directory
-ls: cannot access Sample*/.bam: No such file or directory
-Please specify a BAM file or files.
