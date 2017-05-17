@@ -1,11 +1,11 @@
 #!/bin/bash
 #SBATCH --partition=gc # partition to submit to
 #SBATCH --job-name=“trimming” # Job name
-#SBATCH --array=1-4
+#SBATCH --array=1-1
 #SBATCH --nodes=1 # single node, anything more than 1 will not run
 #SBATCH --ntasks=1 # equivalent to cpus, stick to around 20 max on gc64, or gc128 nodes
 #SBATCH --mem=50000 # in MB, memory pool all cores, default is 2GB per cpu
-#SBATCH --time=01-03:30:00  # expected time of completion in hours, minutes, seconds, default 1-day
+#SBATCH --time=00-05:30:00  # expected time of completion in hours, minutes, seconds, default 1-day
 #SBATCH --output=arrayJob_%A_%a.out # STDOUT
 #SBATCH --error=arrayJob_%A_%a.err # STDERR
 #SBATCH --mail-user=rzl0007@auburn.edu # does not work yet

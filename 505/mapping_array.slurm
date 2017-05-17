@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --partition=gc # partition to submit to
 #SBATCH --job-name=“mapping_array” # Job name
-#SBATCH --array=1-14
+#SBATCH --array=1-7
 #SBATCH --nodes=1 # single node, anything more than 1 will not run
 #SBATCH --ntasks=20 # equivalent to cpus, stick to around 20 max on gc64, or gc128 nodes
 #SBATCH --mem=100000 # in MB, memory pool all cores, default is 2GB per cpu
