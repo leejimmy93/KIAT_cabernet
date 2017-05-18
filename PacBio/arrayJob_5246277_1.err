@@ -1,9 +1,0 @@
---2017-05-16 17:48:48--  https://rzlli:*password*@bioshare.bioinformatics.ucdavis.edu/bioshare/wget/x48ff2erkrhtfci/Da-Ae_Brassica_napus/r54048_20170510_192351
-Resolving bioshare.bioinformatics.ucdavis.edu (bioshare.bioinformatics.ucdavis.edu)... 128.120.143.8
-Connecting to bioshare.bioinformatics.ucdavis.edu (bioshare.bioinformatics.ucdavis.edu)|128.120.143.8|:443... connected.
-WARNING: cannot verify bioshare.bioinformatics.ucdavis.edu's certificate, issued by ‘/C=US/ST=MI/L=Ann Arbor/O=Internet2/OU=InCommon/CN=InCommon RSA Server CA’:
-  Unable to locally verify the issuer's authority.
-HTTP request sent, awaiting response... 404 Not Found
-2017-05-16 17:48:48 ERROR 404: Not Found.
-
-/share/malooflab/Ruijuan/PacBio/data: Scheme missing.
