@@ -28,7 +28,7 @@ echo ${sample}
 STAR --genomeDir /share/malooflab/Ruijuan/reference/star_genome/ \
 	--readFilesIn Sample_${sample}/${sample}_paired_1.fq.gz  Sample_${sample}/${sample}_paired_2.fq.gz \
 	--outSAMtype BAM SortedByCoordinate \
-	--outFileNamePrefix Sample_${sample}/ABC \
+	--outFileNamePrefix Sample_${sample}/ABC/ \
 	--twopassMode Basic \
 	--runThreadN 20 \
 	--outReadsUnmapped Fastx \
