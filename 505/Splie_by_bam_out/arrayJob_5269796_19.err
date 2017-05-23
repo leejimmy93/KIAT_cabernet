@@ -1,0 +1,22 @@
+Module samtools-1.3-x86_64-linux-ubuntu14.04 loaded. 
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+[W::bam_hdr_read] EOF marker is absent. The input is probably truncated.
+[main_samview] random alignment retrieval only works for indexed BAM or CRAM files.
+[E::hts_open_format] fail to open file 'Sample_505_K_29/final.bam'
+samtools view: failed to open "Sample_505_K_29/final.bam" for reading: No such file or directory
+samtools index: "Sample_505_K_29/chrA10.bam" is in a format that cannot be usefully indexed
+[E::hts_open_format] fail to open file 'Sample_505_K_37/final.bam'
+samtools view: failed to open "Sample_505_K_37/final.bam" for reading: No such file or directory
+samtools index: "Sample_505_K_37/chrA10.bam" is in a format that cannot be usefully indexed
+[E::hts_open_format] fail to open file 'Sample_505_K_4/final.bam'
+samtools view: failed to open "Sample_505_K_4/final.bam" for reading: No such file or directory
+samtools index: "Sample_505_K_4/chrA10.bam" is in a format that cannot be usefully indexed
+[E::hts_open_format] fail to open file 'Sample_505_K_47/final.bam'
+samtools view: failed to open "Sample_505_K_47/final.bam" for reading: No such file or directory
+samtools index: "Sample_505_K_47/chrA10.bam" is in a format that cannot be usefully indexed
+[E::hts_open_format] fail to open file 'Sample_505_K_60/final.bam'
+samtools view: failed to open "Sample_505_K_60/final.bam" for reading: No such file or directory
+samtools index: "Sample_505_K_60/chrA10.bam" is in a format that cannot be usefully indexed
+[E::hts_open_format] fail to open file 'Sample_505_K_82/final.bam'
+samtools view: failed to open "Sample_505_K_82/final.bam" for reading: No such file or directory
+samtools index: "Sample_505_K_82/chrA10.bam" is in a format that cannot be usefully indexed

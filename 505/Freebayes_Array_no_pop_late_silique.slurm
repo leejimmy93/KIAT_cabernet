@@ -33,7 +33,7 @@ bams=`ls Sample*/${chrom}.bam`
 echo ${chrom}
 echo ${bams}
 
-freebayes -f /share/malooflab/John/KIAT/Reference/Split_Chroms/${chrom}.fa ${bams} --no-population-priors --report-genotype-likelihood-max --genotype-qualities > /share/malooflab/Ruijuan/505/vcf_no_pop_late_silique/${chrom}.vcf
+freebayes -f /share/malooflab/John/KIAT/Reference/Split_Chroms/${chrom}.fa ${bams} --no-population-priors --report-genotype-likelihood-max --genotype-qualities > /share/malooflab/Ruijuan/505/vcf_no_pop_late_silique/all/${chrom}.vcf
 
 end=`date +%s`
 runtime=$((end-start))
