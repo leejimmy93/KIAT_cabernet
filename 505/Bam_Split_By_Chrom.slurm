@@ -22,7 +22,7 @@ start=`date +%s`
 module load samtools/1.3
 
 ## cd to working directory 
-cd /share/malooflab/Ruijuan/505/late_silique_batchE/bioftp.org/TBD170280_20170504
+cd /share/malooflab/Ruijuan/505/late_silique_bam_file
 
 ## Identify each array run
 

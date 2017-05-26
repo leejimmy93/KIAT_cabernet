@@ -32,7 +32,8 @@ STAR --genomeDir /share/malooflab/Ruijuan/reference/star_genome/ \
 	--twopassMode Basic \
 	--runThreadN 20 \
 	--outReadsUnmapped Fastx \
-	--readFilesCommand zcat 
+	--readFilesCommand zcat \
+	--outFilterMismatchNmax 0
 
 end=`date +%s`
 runtime=$((end-start))

@@ -1,11 +1,11 @@
 #!/bin/bash
 #SBATCH --partition=gc # partition to submit to
-#SBATCH --job-name="Prep4FreeBayes" # Job name
-#SBATCH --array=1-2
+#SBATCH --job-name="indexbam" # Job name
+#SBATCH --array=1-44
 #SBATCH --nodes=1 # single node, anything more than 1 will not run
 #SBATCH --ntasks=10 # equivalent to cpus, stick to around 20 max on gc64, or gc128 nodes
 #SBATCH --mem=20000 # in MB, memory pool all cores, default is 2GB per cpu
-#SBATCH --time=0-01:00:00  # expected time of completion in hours, minutes, seconds, default 1-day
+#SBATCH --time=0-00:20:00  # expected time of completion in hours, minutes, seconds, default 1-day
 #SBATCH --output=arrayJob.%A_%a.out # File to which STDOUT will be written
 #SBATCH --error=arrayJob.%A_%a.err # File to which STDERR will be written
 #SBATCH --mail-user=rzl0007@tigermail.auburn.edu
@@ -29,15 +29,15 @@ name=`sed "${SLURM_ARRAY_TASK_ID}q;d" sample_list | sed 's/Sample_//'`
 echo $name
 cd ${sample}
 
-samtools view Aligned.sortedByCoord.out.bam | awk '$5 == "255"' > Unique.sorted.sam
-samtools view -bT /share/malooflab/Ruijuan/reference/Brassica_napus_v4.1.chromosomes.fa Unique.sorted.sam > Unique.sorted.bam
-samtools rmdup -s Unique.sorted.bam rmdup.bam
-samtools index rmdup.bam 
-bamaddrg -b rmdup.bam -s ${name} -r ${name} > final.bam 
-chmod 555 final.bam 
-# chmod 555 final.bam.bai 
-rm Unique.sorted.sam
-rm Unique.sorted.bam
-rm rmdup.bam  
+# samtools view Aligned.sortedByCoord.out.bam | awk '$5 == "255"' > Unique.sorted.sam
+# samtools view -bT /share/malooflab/Ruijuan/reference/Brassica_napus_v4.1.chromosomes.fa Unique.sorted.sam > Unique.sorted.bam
+# samtools rmdup -s Unique.sorted.bam rmdup.bam
+samtools index final.bam 
+# bamaddrg -b rmdup.bam -s ${name} -r ${name} > final.bam 
+#chmod 555 final.bam 
+chmod 555 final.bam.bai 
+# rm Unique.sorted.sam
+# rm Unique.sorted.bam
+# rm rmdup.bam  
 cd /share/malooflab/Ruijuan/505/late_silique_bam_file
 echo ${name} done
