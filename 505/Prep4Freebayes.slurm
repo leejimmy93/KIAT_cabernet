@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --partition=gc # partition to submit to
 #SBATCH --job-name="Prep4FreeBayes" # Job name
-#SBATCH --array=1-2
+#SBATCH --array=1-1
 #SBATCH --nodes=1 # single node, anything more than 1 will not run
 #SBATCH --ntasks=10 # equivalent to cpus, stick to around 20 max on gc64, or gc128 nodes
 #SBATCH --mem=20000 # in MB, memory pool all cores, default is 2GB per cpu
@@ -19,25 +19,25 @@
 
 module load samtools/1.3
 
-cd /share/malooflab/Ruijuan/505/late_silique_bam_file
+cd /share/malooflab/Ruijuan/heterzygosity_check
 
 echo "My SLURM_ARRAY_TASK_ID: " $SLURM_ARRAY_TASK_ID
 
-sample=`sed "${SLURM_ARRAY_TASK_ID}q;d" sample_list`
+# sample=`sed "${SLURM_ARRAY_TASK_ID}q;d" sample_list`
 name=`sed "${SLURM_ARRAY_TASK_ID}q;d" sample_list | sed 's/Sample_//'`
 
 echo $name
-cd ${sample}
+# cd ${sample}
 
 samtools view Aligned.sortedByCoord.out.bam | awk '$5 == "255"' > Unique.sorted.sam
 samtools view -bT /share/malooflab/Ruijuan/reference/Brassica_napus_v4.1.chromosomes.fa Unique.sorted.sam > Unique.sorted.bam
-samtools rmdup -s Unique.sorted.bam rmdup.bam
-samtools index rmdup.bam 
-bamaddrg -b rmdup.bam -s ${name} -r ${name} > final.bam 
-chmod 555 final.bam 
+samtools rmdup -s Unique.sorted.bam rmdup.bam 
+bamaddrg -b rmdup.bam -s ${name} -r ${name} > final.bam
+samtools index final.bam  
+# chmod 555 final.bam
 # chmod 555 final.bam.bai 
 rm Unique.sorted.sam
 rm Unique.sorted.bam
 rm rmdup.bam  
-cd /share/malooflab/Ruijuan/505/late_silique_bam_file
+cd /share/malooflab/Ruijuan/heterzygosity_check 
 echo ${name} done
