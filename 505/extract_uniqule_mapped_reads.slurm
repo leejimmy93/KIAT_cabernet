@@ -27,7 +27,7 @@ cd /share/malooflab/Ruijuan/505/late_silique_bam_file
 ## Identify each array run
 
 echo "My SLURM_ARRAY_TASK_ID: " $SLURM_ARRAY_TASK_ID
-chrom=`sed "${SLURM_ARRAY_TASK_ID}q;d" sample_list_2`
+sample=`sed "${SLURM_ARRAY_TASK_ID}q;d" sample_list_2`
 
 ## Extract uniquely mapped reads  
 
