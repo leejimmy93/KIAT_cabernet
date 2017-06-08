@@ -3,8 +3,8 @@
 #SBATCH --job-name="Bam_Split_calc" # Job name
 #SBATCH --array=1-49
 #SBATCH --nodes=1 # single node, anything more than 1 will not run
-#SBATCH --ntasks=10 # equivalent to cpus, stick to around 20 max on gc64, or gc128 nodes
-#SBATCH --mem=10000 # in MB, memory pool all cores, default is 2GB per cpu
+#SBATCH --ntasks=20 # equivalent to cpus, stick to around 20 max on gc64, or gc128 nodes
+#SBATCH --mem=100000 # in MB, memory pool all cores, default is 2GB per cpu
 #SBATCH --time=1-00:00:00  # expected time of completion in hours, minutes, seconds, default 1-day
 #SBATCH --output=arrayJob_%A_%a.out # File to which STDOUT will be written
 #SBATCH --error=arrayJob_%A_%a.err # File to which STDERR will be written
@@ -34,15 +34,13 @@ bams=`cat sample_list_2`
 echo ${chrom}
 echo ${bams}
 
-## Extract uniquely mapped reads, then extract reads from bam files for specific chromosome, and calculate read depth per base 
+## Index uniquely mapped reads, then extract reads from bam files for specific chromosome, and calculate read depth per base 
 
 for sample in ${bams}
         do
-	samtools view Sample_${sample}/ABC/Aligned.sortedByCoord.out.bam | awk '$5 == "255"' > Sample_${sample}/ABC/Unique.sorted.sam
-	samtools view -bT /share/malooflab/Ruijuan/reference/B_napus_plus_Bsub.fa Sample_${sample}/ABC/Unique.sorted.sam > Sample_${sample}/ABC/Unique.sorted.bam
+	samtools index Sample_${sample}/ABC/Unique.sorted.bam
         samtools view -@ 2 -b Sample_${sample}/ABC/Unique.sorted.bam ${chrom} > Sample_${sample}/ABC/${chrom}.bam
-        samtools depth Sample_${sample}/ABC/${chrom}.bam -a > Sample_${sample}/ABC/${chrom}.depth
-	rm Unique.sorted.sam  
+        samtools depth Sample_${sample}/ABC/${chrom}.bam -a > Sample_${sample}/ABC/${chrom}.depth  
         done
 
 end=`date +%s`
