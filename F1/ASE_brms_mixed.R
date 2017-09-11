@@ -56,10 +56,15 @@ sfStop()
 
 save(brms_all_mixed, file="/share/malooflab/Ruijuan/F1/output/brms_all_mixed_iter_10000.Rdata")
 
+# calculate Ae_ratio in 414 & 415 actural data 
+data_prob_Ae_result <- 
+lapply(F1.counts.long.c$gene_ID, function(gene) 
+	tryCatch({
+	F1.counts.long.c %>% 
+	filter(gene_ID=="BnaA01g00010D") %>% 
+	group_by(cross) %>% 
+	summarize(ae.ratio=mean(Ae.counts/total.counts))
+}, error = function(e) NA)
+)
 
-
-
-
-
-
-
+# running in screen -r 23189.pts-66.cabernet 
