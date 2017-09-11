@@ -16,7 +16,8 @@
 
 start=`date +%s`
 
-Rscript ASE_brms_mixed.R 
+# Rscript ASE_brms_mixed.R 
+Rscript ASE_brms_fixed.R
 
 end=`date +%s`
 runtime=$((end-start))

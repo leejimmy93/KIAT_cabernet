@@ -52,7 +52,7 @@ brms_all_fixed <-
 
 sfStop()
 
-# save(brms_all_fixed, file="/share/malooflab/Ruijuan/F1/output/brms_all_fixed.Rdata")
+save(brms_all_fixed, file="/share/malooflab/Ruijuan/F1/output/brms_all_fixed_09_10.Rdata")
 
 
 

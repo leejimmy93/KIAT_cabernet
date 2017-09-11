@@ -30,7 +30,7 @@ F1.counts.long <- full_join(Total.counts.long,Ae.counts.long) # full_join()
 onegene <- F1.counts.long %>% filter(gene_ID=="BnaA01g00020D")
 onegene
 
-# one gene, no random effects
+# one gene, with random effects
 brms2 <- brm(Ae.counts | trials(total.counts) ~ cross + (1|SNP_ID),
              family="binomial",
              prior=set_prior("normal(0,10)", class="b"),
