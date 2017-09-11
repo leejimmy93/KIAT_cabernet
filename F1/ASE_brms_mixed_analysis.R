@@ -14,6 +14,16 @@ for (gene in names(brms_all_mixed)){
 brms_all_mixed.result <- output
 save(brms_all_mixed.result, file="/share/malooflab/Ruijuan/F1/output/brms_all_mixed.result.Rdata")
 
+# look for genes that show significant different Ae_ratio between 414 & 415 
+ASE_gene <- vector() 
+
+for (gene in names(brms_all_mixed.result)){
+	if (brms_all_mixed.result[[gene]]$hypothesis$Star == "*")
+	ASE_gene[[gene]] <- gene
+}
+
+save(ASE_gene, file="/share/malooflab/Ruijuan/F1/output/ASE_gene.Rdata")
+
 # code for prob from model prediction 
 model_prob_Ae_result <-
 lapply(names(brms_all_mixed), function(gene)
