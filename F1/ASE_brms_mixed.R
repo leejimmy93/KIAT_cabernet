@@ -35,6 +35,7 @@ brms2 <- brm(Ae.counts | trials(total.counts) ~ cross + (1|SNP_ID),
              family="binomial",
              prior=set_prior("normal(0,10)", class="b"),
              data=onegene,
+	     iter=10000, 
              control = list(adapt_delta = 0.99))
 
 library(snowfall)
@@ -53,7 +54,7 @@ brms_all_mixed <-
 
 sfStop()
 
-save(brms_all_mixed, file="/share/malooflab/Ruijuan/F1/output/brms_all_mixed.Rdata")
+save(brms_all_mixed, file="/share/malooflab/Ruijuan/F1/output/brms_all_mixed_iter_10000.Rdata")
 
 
 
