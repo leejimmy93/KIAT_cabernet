@@ -67,8 +67,21 @@ save(brms_all_fixed.result, file="/share/malooflab/Ruijuan/F1/output/brms_all_fi
 # overlaps with DEGs
 intersect(names(brms_all_fixed.result), rownames(DEgene.young.F1)) # 662
 
+# look for genes that show significant different Ae_ratio between 414 & 415
+ASE_gene_fixed <- vector()
 
+for (gene in names(brms_all_fixed.result)){
+        if (brms_all_fixed.result[[gene]]$hypothesis$Star == "*")
+        ASE_gene_fixed[[gene]] <- gene
+}
+# 2529 genes show ASE
 
+save(ASE_gene_fixed, file="/share/malooflab/Ruijuan/F1/output/ASE_gene_fixed.Rdata")
+ASE_DE_young_gene_fixed <-
+intersect(names(ASE_gene_fixed), rownames(DEgene.young.F1)) # 208
+save(ASE_DE_young_gene_fixed, file="/share/malooflab/Ruijuan/F1/output/ASE_DE_young_gene_fixed.Rdata")
+
+# only 208 genes out of 4024 genes show ASE
 
 
 
