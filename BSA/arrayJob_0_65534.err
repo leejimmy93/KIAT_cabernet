@@ -1,0 +1,4 @@
+Module java-jdk1.8.0_05-static loaded. 
+Module fastqc-v0.11.2-static loaded. 
+/var/lib/slurm-llnl/slurmd/job23738/slurm_script: line 22: sample_list: command not found
+Specified output directory '/share/malooflab/Kim/Data/i4xhjhuttt/Unaligned2/Project_JMSK_L8_H1095P_KimA/sample/' does not exist

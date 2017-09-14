@@ -2,6 +2,10 @@
 library(brms)
 library(psych)
 
+load("/share/malooflab/Ruijuan/F1/output/F1.young.gene.Ae_ratio.Rdata")
+intersect(F1.young.gene.Ae_ratio$gene_ID %>% unique(), rownames(DEgene.young.F1)) # 1008
+
+
 load("/share/malooflab/Ruijuan/F1/output/brms_all_mixed.Rdata")
 # all 12044 genes have brms output, but some are NA due to 
 # overlaps with DEGs 1008

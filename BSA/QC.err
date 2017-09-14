@@ -1,0 +1,4 @@
+Module java-jdk1.8.0_05-static loaded. 
+Module fastqc-v0.11.2-static loaded. 
+/var/lib/slurm-llnl/slurmd/job71879/slurm_script: line 22: sample_list: command not found
+Skipping 'sample.fastq.gz' which didn't exist, or couldn't be read
