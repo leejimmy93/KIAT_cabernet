@@ -4,7 +4,7 @@
 #SBATCH --nodes=1 # single node, anything more than 1 will not run
 #SBATCH --ntasks=20 # equivalent to cpus, stick to around 20 max on gc64, or gc128 nodes
 #SBATCH --mem=100000 # in MB, memory pool all cores, default is 2GB per cpu
-#SBATCH --time=2-00:00:00  # expected time of completion in hours, minutes, seconds, default 1-day
+#SBATCH --time=10-00:00:00  # expected time of completion in hours, minutes, seconds, default 1-day
 #SBATCH --output=ASE_mixed.out # File to which STDOUT will be written
 #SBATCH --error=ASE_mixed.err # File to which STDERR will be written
 #SBATCH --mail-user=rzlli@ucdavis.edu
