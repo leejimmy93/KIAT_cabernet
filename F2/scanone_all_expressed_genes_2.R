@@ -22,15 +22,15 @@ LG.f2.after.crossover <- calc.genoprob(LG.f2.after.crossover,step=1)
 
 # names(scanone.perm.imp) <- colnames(LG.f2.after.crossover$pheno) 
 
-LG.f2.after.crossover$pheno <- LG.f2.after.crossover$pheno[,1:5618]
+LG.f2.after.crossover$pheno <- LG.f2.after.crossover$pheno[,5619:11236]
 
 system.time(
-scanone.imp.1 <- 
+scanone.imp.2 <- 
 lapply(seq_along(LG.f2.after.crossover$pheno), function(trait) {
   print(trait)
   scanone(LG.f2.after.crossover,pheno.col=trait,method="imp")
 }) 
 )
-names(scanone.imp.1) <- colnames(LG.f2.after.crossover$pheno) 
+names(scanone.imp.2) <- colnames(LG.f2.after.crossover$pheno) 
 
-save(scanone.imp.1, file = "/share/malooflab/Ruijuan/F2/QTL_analysis/output/scanone_all_expressed_genes.imp.1.Rdata")
+save(scanone.imp.2, file = "/share/malooflab/Ruijuan/F2/QTL_analysis/output/scanone_all_expressed_genes.imp.2.Rdata")
