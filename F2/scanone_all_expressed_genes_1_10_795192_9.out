@@ -1,6 +1,6 @@
-c7-5
-My SLURM_ARRAY_TASK_ID:  7
-scanone_all_expressed_genes_6.R
+c0-11
+My SLURM_ARRAY_TASK_ID:  9
+scanone_all_expressed_genes_8.R
 [1] 1
 [1] 2
 [1] 3
@@ -1004,3 +1004,8 @@ scanone_all_expressed_genes_6.R
 [1] 1001
 [1] 1002
 [1] 1003
+[1] 1004
+[1] 1005
+[1] 1006
+[1] 1007
+[1] 1008
