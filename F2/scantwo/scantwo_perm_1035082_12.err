@@ -1,0 +1,11 @@
+Loading required package: snow
+snowfall 1.84-6.1 initialized (using snow 0.4-2): parallel execution on 16 CPUs.
+
+Warning message:
+In searchCommandline(parallel, cpus = cpus, type = type, socketHosts = socketHosts,  :
+  Unknown option on commandline: --file
+Library qtl loaded in cluster.
+
+Error in names(scantwo.perm.imp.11.10) <- colnames(LG.f2.after.crossover$pheno) : 
+  'names' attribute [43] must be the same length as the vector [6]
+Execution halted

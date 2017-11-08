@@ -1,0 +1,9 @@
+c0-28
+My SLURM_ARRAY_TASK_ID:  13
+scantwo_perm_11.1.R
+R Version:  R version 3.4.2 (2017-09-28) 
+
+Library qtl loaded.
+ -Running permutations via a cluster of 16 nodes.
+     user    system   elapsed 
+ 77373.86 274939.44  15714.90 
