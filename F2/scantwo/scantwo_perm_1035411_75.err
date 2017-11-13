@@ -1,4 +1,8 @@
+Warning message:
+package ‘qtl’ was built under R version 3.4.2 
 Loading required package: snow
+Warning message:
+package ‘snowfall’ was built under R version 3.4.2 
 snowfall 1.84-6.1 initialized (using snow 0.4-2): parallel execution on 16 CPUs.
 
 Warning message:
