@@ -1,7 +1,7 @@
 library(qtl)
 # library(snowfall)
 
-load("/share/malooflab/Ruijuan/F2/QTL_analysis/data/LG.f2.after.crossover_all_expressed_genes.Rdata")
+load("/share/malooflab/Ruijuan/F2/eQTL/no_scale_center/data/LG.f2.after.crossover_all_expressed_genes_no_scale_center.Rdata")
 
 LG.f2.after.crossover <- sim.geno(LG.f2.after.crossover,step=1,n.draws=32) # imputation? 
 LG.f2.after.crossover <- calc.genoprob(LG.f2.after.crossover,step=1) 
@@ -33,4 +33,4 @@ lapply(seq_along(LG.f2.after.crossover$pheno), function(trait) {
 )
 names(scanone.imp.7) <- colnames(LG.f2.after.crossover$pheno) 
 
-save(scanone.imp.7, file = "/share/malooflab/Ruijuan/F2/QTL_analysis/output/scanone_all_expressed_genes.imp.7.Rdata")
+save(scanone.imp.7, file = "/share/malooflab/Ruijuan/F2/eQTL/no_scale_center/output/scanone_all_expressed_genes.imp.7.Rdata")

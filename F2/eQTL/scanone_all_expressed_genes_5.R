@@ -1,7 +1,7 @@
 library(qtl)
 # library(snowfall)
 
-load("/share/malooflab/Ruijuan/F2/QTL_analysis/data/LG.f2.after.crossover_all_expressed_genes.Rdata")
+load("/share/malooflab/Ruijuan/F2/eQTL/no_scale_center/data/LG.f2.after.crossover_all_expressed_genes_no_scale_center.Rdata")
 
 LG.f2.after.crossover <- sim.geno(LG.f2.after.crossover,step=1,n.draws=32) # imputation? 
 LG.f2.after.crossover <- calc.genoprob(LG.f2.after.crossover,step=1) 
@@ -22,15 +22,15 @@ LG.f2.after.crossover <- calc.genoprob(LG.f2.after.crossover,step=1)
 
 # names(scanone.perm.imp) <- colnames(LG.f2.after.crossover$pheno) 
 
-LG.f2.after.crossover$pheno <- LG.f2.after.crossover$pheno[,44945:50562]
+LG.f2.after.crossover$pheno <- LG.f2.after.crossover$pheno[,22473:28090]
 
 system.time(
-scanone.imp.9 <- 
+scanone.imp.5 <- 
 lapply(seq_along(LG.f2.after.crossover$pheno), function(trait) {
   print(trait)
   scanone(LG.f2.after.crossover,pheno.col=trait,method="imp")
 }) 
 )
-names(scanone.imp.9) <- colnames(LG.f2.after.crossover$pheno) 
+names(scanone.imp.5) <- colnames(LG.f2.after.crossover$pheno) 
 
-save(scanone.imp.9, file = "/share/malooflab/Ruijuan/F2/QTL_analysis/output/scanone_all_expressed_genes.imp.9.Rdata")
+save(scanone.imp.5, file = "/share/malooflab/Ruijuan/F2/eQTL/no_scale_center/output/scanone_all_expressed_genes.imp.5.Rdata")
