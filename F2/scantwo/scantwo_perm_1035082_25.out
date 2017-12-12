@@ -1,7 +1,0 @@
-c0-12
-My SLURM_ARRAY_TASK_ID:  25
-scantwo_perm_12.2.R
-R Version:  R version 3.4.1 (2017-06-30) 
-
-Library qtl loaded.
- -Running permutations via a cluster of 16 nodes.

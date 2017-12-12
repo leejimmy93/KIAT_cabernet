@@ -1,9 +1,0 @@
-Loading required package: snow
-snowfall 1.84-6.1 initialized (using snow 0.4-2): parallel execution on 16 CPUs.
-
-Warning message:
-In searchCommandline(parallel, cpus = cpus, type = type, socketHosts = socketHosts,  :
-  Unknown option on commandline: --file
-Library qtl loaded in cluster.
-
-slurmd[c0-34.hpc.genomecenter.ucdavis.edu]: error: *** JOB 1035111 CANCELLED AT 2017-11-08T09:46:55 ***

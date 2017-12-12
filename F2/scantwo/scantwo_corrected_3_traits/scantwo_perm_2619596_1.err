@@ -6,4 +6,9 @@ In searchCommandline(parallel, cpus = cpus, type = type, socketHosts = socketHos
   Unknown option on commandline: --file
 Library qtl loaded in cluster.
 
-slurmd[c8-6.hpc.genomecenter.ucdavis.edu]: error: *** JOB 795244 CANCELLED AT 2017-11-16T13:22:54 DUE TO TIME LIMIT ***
+
+Stopping cluster
+
+Error in names(scantwo.imp) <- colnames(LG.f2.after.crossover$pheno) : 
+  object 'scantwo.imp' not found
+Execution halted
