@@ -6,3 +6,9 @@ In searchCommandline(parallel, cpus = cpus, type = type, socketHosts = socketHos
   Unknown option on commandline: --file
 Library qtl loaded in cluster.
 
+
+Stopping cluster
+
+Error in save(scantwo.perm.imp.4, file = "/share/malooflab/Ruijuan/F2/QTL_analysis/output/scantwo/corrected_three_traits/scantwo.perm.imp.4.Rdata") : 
+  object ‘scantwo.perm.imp.4’ not found
+Execution halted

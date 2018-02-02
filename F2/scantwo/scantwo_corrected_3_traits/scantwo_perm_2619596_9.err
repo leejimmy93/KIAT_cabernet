@@ -6,3 +6,6 @@ In searchCommandline(parallel, cpus = cpus, type = type, socketHosts = socketHos
   Unknown option on commandline: --file
 Library qtl loaded in cluster.
 
+
+Stopping cluster
+

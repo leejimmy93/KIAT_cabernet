@@ -1,0 +1,5 @@
+Error in checkcovar(cross, pheno.col, addcovar, intcovar, perm.strata,  : 
+  Following phenotypes are not numeric: Column 1
+Calls: system.time -> lapply -> FUN -> scanone -> checkcovar
+Timing stopped at: 0.028 0 0.038
+Execution halted

@@ -6,3 +6,4 @@ In searchCommandline(parallel, cpus = cpus, type = type, socketHosts = socketHos
   Unknown option on commandline: --file
 Library qtl loaded in cluster.
 
+slurmd[c0-10.hpc.genomecenter.ucdavis.edu]: error: *** JOB 2619602 CANCELLED AT 2017-12-16T21:20:58 DUE TO TIME LIMIT ***

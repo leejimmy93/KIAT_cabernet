@@ -5,3 +5,5 @@ R Version:  R version 3.4.3 (2017-11-30)
 
 Library qtl loaded.
  -Running permutations via a cluster of 16 nodes.
+     user    system   elapsed 
+244785.82 818717.54  73084.84 
