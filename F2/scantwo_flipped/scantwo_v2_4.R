@@ -8,7 +8,7 @@ LG.f2.after.crossover <- sim.geno(LG.f2.after.crossover,step=1,n.draws=32)
 LG.f2.after.crossover <- calc.genoprob(LG.f2.after.crossover,step=1)
 
 LG.f2.after.crossover$pheno <- 
-LG.f2.after.crossover$pheno[,c("Crude_oil_contents", "Myristic_acid", "Palmitic_acid", "Palmitoliec_aicd")]
+LG.f2.after.crossover$pheno[,c("Erucic_acid", "days_to_flower", "days_to_bolt")]
 
 # run scantwo for all traits at once 
 system.time(
@@ -22,4 +22,4 @@ lapply(seq_along(LG.f2.after.crossover$pheno), function(trait) {
 names(scantwo.imp) <- colnames(LG.f2.after.crossover$pheno)
 
 # save output 
-save(scantwo.imp, file = "/share/malooflab/Ruijuan/F2/QTL_analysis/output/scantwo.imp.v2.flipped.1.Rdata")
+save(scantwo.imp, file = "/share/malooflab/Ruijuan/F2/QTL_analysis/output/scantwo.imp.v2.flipped.4.Rdata")
