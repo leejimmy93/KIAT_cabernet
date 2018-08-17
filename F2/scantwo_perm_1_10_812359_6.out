@@ -1,8 +1,0 @@
-c0-29
-My SLURM_ARRAY_TASK_ID:  6
-scantwo_perm_5.R
-R Version:  R version 3.4.2 (2017-09-28) 
-
-Library qtl loaded.
-     user    system   elapsed 
-    0.008     0.000 28668.589 
