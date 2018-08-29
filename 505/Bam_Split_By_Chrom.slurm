@@ -5,7 +5,7 @@
 #SBATCH --nodes=1 # single node, anything more than 1 will not run
 #SBATCH --ntasks=2 # equivalent to cpus, stick to around 20 max on gc64, or gc128 nodes
 #SBATCH --mem=10000 # in MB, memory pool all cores, default is 2GB per cpu
-#SBATCH --time=0-01:00:00  # expected time of completion in hours, minutes, seconds, default 1-day
+#SBATCH --time=0-15:00:00  # expected time of completion in hours, minutes, seconds, default 1-day
 #SBATCH --output=arrayJob_%A_%a.out # File to which STDOUT will be written
 #SBATCH --error=arrayJob_%A_%a.err # File to which STDERR will be written
 #SBATCH --mail-user=rzl0007@tigermail.auburn.edu
