@@ -1,5 +1,5 @@
 #!/bin/bash 
-#SBATCH --partition=gc # partition to submit to
+#SBATCH --partition=production # partition to submit to
 #SBATCH --job-name="Prep4SNPcalling" # Job name
 #SBATCH --array=1-238
 #SBATCH --nodes=1 # single node, anything more than 1 will not run
@@ -14,7 +14,7 @@
 
 /bin/hostname
 start=`date +%s`
-module load samtools/1.3
+module load samtools/1.5
 
 cd /share/malooflab/Ruijuan/505/WGS/mapping_cabernet
 
@@ -23,24 +23,25 @@ echo "My SLURM_ARRAY_TASK_ID: " $SLURM_ARRAY_TASK_ID
 sample=`sed "${SLURM_ARRAY_TASK_ID}q;d" sample_list_mapping`
 
 # extract unique mapped reads 
-samtools view -F 4 ${sample}.bam | grep -v "XA:Z" | grep -v "SA:Z" > ${sample}/Unique.sorted.sam
+# samtools view -F 4 ${sample}.bam | grep -v "XA:Z" | grep -v "SA:Z" > ${sample}/Unique.sorted.sam
 
 # from sam to bam 
-samtools view -bT /share/malooflab/Ruijuan/reference/Brassica_napus_v4.1.chromosomes.fa ${sample}/Unique.sorted.sam > ${sample}/Unique.sorted.bam
+# samtools view -bT /share/malooflab/Ruijuan/reference/Brassica_napus_v4.1.chromosomes.fa ${sample}/Unique.sorted.sam > ${sample}/Unique.sorted.bam
 
 # remove PCR duplicate 
-samtools rmdup -s ${sample}/Unique.sorted.bam ${sample}/rmdup.bam
-
-# index bam file 
-samtools index ${sample}/rmdup.bam
+# samtools rmdup -s ${sample}/Unique.sorted.bam ${sample}/rmdup.bam
 
 # add read group 
-bamaddrg -b ${sample}/rmdup.bam -s ${sample} -r ${sample} > ${sample}/final.bam 
+# bamaddrg -b ${sample}/rmdup.bam -s ${sample} -r ${sample} > ${sample}/final.bam 
+
+# index bam file
+samtools index ${sample}/final.bam
 
 # remove files 
-rm ${sample}/Unique.sorted.sam
-rm ${sample}/Unique.sorted.bam
-rm ${sample}/rmdup.bam
+# rm ${sample}/Unique.sorted.sam
+# rm ${sample}/Unique.sorted.bam
+# rm ${sample}/rmdup.bam
+rm ${sample}/rmdup.bam.bai
 
 end=`date +%s`
 runtime=$((end-start))
