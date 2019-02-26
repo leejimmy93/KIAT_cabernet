@@ -2,7 +2,7 @@
 
 echo Collecing names of all directories which start in Sample
 
-cd /share/malooflab/Ruijuan/505/late_silique_bam_file
+cd /share/malooflab/Ruijuan/505/WGS/mapping_STAR/finished_176
 files=`cat sample_list`
 #echo $files
 echo `wc -w <<< $files` Directories found

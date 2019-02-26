@@ -2,7 +2,7 @@
 
 echo Collecing names of all samples
 
-cd /share/malooflab/Ruijuan/505/WGS/QC/trimmed
+cd /share/malooflab/Ruijuan/505/WGS/QC_47_Samples/raw
 files=`ls | grep -v "zip" | grep -v "html"`
 #echo $files
 echo `wc -w <<< $files` Directories found

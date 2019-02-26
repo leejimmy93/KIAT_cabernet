@@ -1,0 +1,1582 @@
+fleet-8
+My SLURM_ARRAY_TASK_ID:  103
+SJ_276_S337_L003
+Dec 05 16:08:13 ..... started STAR run
+Dec 05 16:24:45 ..... loading genome
+Dec 05 16:26:12 ..... started mapping
+Dec 05 17:22:32 ..... started sorting BAM
+Dec 05 17:27:06 ..... finished successfully
+5114 seconds to completion
+fleet-28
+My SLURM_ARRAY_TASK_ID:  104
+SJ_277_S336_L003
+Dec 05 15:42:29 ..... started STAR run
+Dec 05 16:25:09 ..... loading genome
+Dec 05 16:26:04 ..... started mapping
+Dec 05 17:21:29 ..... started sorting BAM
+Dec 05 17:26:01 ..... finished successfully
+6411 seconds to completion
+rafter-0
+My SLURM_ARRAY_TASK_ID:  105
+SJ_278_S335_L003
+Dec 05 15:54:26 ..... started STAR run
+Dec 05 16:24:40 ..... loading genome
+Dec 05 16:26:13 ..... started mapping
+Dec 05 17:25:24 ..... started sorting BAM
+Dec 05 17:31:01 ..... finished successfully
+6893 seconds to completion
+rafter-0
+My SLURM_ARRAY_TASK_ID:  106
+SJ_279_S350_L003
+Dec 05 15:54:20 ..... started STAR run
+Dec 05 16:24:42 ..... loading genome
+Dec 05 16:26:13 ..... started mapping
+Dec 05 17:15:10 ..... started sorting BAM
+Dec 05 17:19:40 ..... finished successfully
+5974 seconds to completion
+rafter-0
+My SLURM_ARRAY_TASK_ID:  107
+SJ_281_S349_L003
+Dec 05 15:54:26 ..... started STAR run
+Dec 05 16:24:49 ..... loading genome
+Dec 05 16:26:13 ..... started mapping
+Dec 05 17:27:45 ..... started sorting BAM
+Dec 05 17:32:15 ..... finished successfully
+6968 seconds to completion
+fleet-17
+My SLURM_ARRAY_TASK_ID:  109
+SJ_283_S347_L003
+Dec 05 15:34:43 ..... started STAR run
+Dec 05 15:34:50 ..... loading genome
+Dec 05 15:36:24 ..... started mapping
+Dec 05 16:09:21 ..... started sorting BAM
+Dec 05 16:14:51 ..... finished successfully
+2484 seconds to completion
+fleet-9
+My SLURM_ARRAY_TASK_ID:  10
+SJ_156_S466_L003
+Dec 05 15:31:57 ..... started STAR run
+Dec 05 15:31:58 ..... loading genome
+Dec 05 15:33:24 ..... started mapping
+Dec 05 16:03:27 ..... started sorting BAM
+Dec 05 16:07:32 ..... finished successfully
+2153 seconds to completion
+fleet-17
+My SLURM_ARRAY_TASK_ID:  110
+SJ_284_S346_L003
+Dec 05 15:34:43 ..... started STAR run
+Dec 05 15:34:44 ..... loading genome
+Dec 05 15:36:24 ..... started mapping
+Dec 05 16:10:56 ..... started sorting BAM
+Dec 05 16:16:44 ..... finished successfully
+2542 seconds to completion
+fleet-15
+My SLURM_ARRAY_TASK_ID:  111
+SJ_285_S345_L003
+Dec 05 15:34:43 ..... started STAR run
+Dec 05 15:34:44 ..... loading genome
+Dec 05 15:36:20 ..... started mapping
+Dec 05 16:07:47 ..... started sorting BAM
+Dec 05 16:11:54 ..... finished successfully
+2311 seconds to completion
+fleet-11
+My SLURM_ARRAY_TASK_ID:  112
+SJ_286_S344_L003
+Dec 05 15:56:04 ..... started STAR run
+Dec 05 16:24:44 ..... loading genome
+Dec 05 16:26:21 ..... started mapping
+Dec 05 17:26:57 ..... started sorting BAM
+Dec 05 17:31:00 ..... finished successfully
+6116 seconds to completion
+fleet-36
+My SLURM_ARRAY_TASK_ID:  113
+SJ_287_S343_L003
+Dec 05 15:34:44 ..... started STAR run
+Dec 05 15:34:46 ..... loading genome
+Dec 05 15:36:24 ..... started mapping
+Dec 05 16:10:40 ..... started sorting BAM
+Dec 05 16:14:04 ..... finished successfully
+2419 seconds to completion
+fleet-35
+My SLURM_ARRAY_TASK_ID:  114
+SJ_288_S358_L003
+Dec 05 15:56:57 ..... started STAR run
+Dec 05 16:24:40 ..... loading genome
+Dec 05 16:26:08 ..... started mapping
+Dec 05 17:31:00 ..... started sorting BAM
+Dec 05 17:35:20 ..... finished successfully
+7051 seconds to completion
+fleet-19
+My SLURM_ARRAY_TASK_ID:  115
+SJ_289_S357_L003
+Dec 05 15:34:44 ..... started STAR run
+Dec 05 15:34:46 ..... loading genome
+Dec 05 15:36:17 ..... started mapping
+Dec 05 16:05:13 ..... started sorting BAM
+Dec 05 16:09:45 ..... finished successfully
+2208 seconds to completion
+fleet-21
+My SLURM_ARRAY_TASK_ID:  116
+SJ_290_S356_L003
+Dec 05 15:34:44 ..... started STAR run
+Dec 05 15:34:46 ..... loading genome
+Dec 05 15:36:17 ..... started mapping
+Dec 05 16:04:40 ..... started sorting BAM
+Dec 05 16:08:50 ..... finished successfully
+2099 seconds to completion
+rafter-13
+My SLURM_ARRAY_TASK_ID:  117
+SJ_291_S355_L003
+Dec 05 15:54:16 ..... started STAR run
+Dec 05 16:23:20 ..... loading genome
+Dec 05 16:26:00 ..... started mapping
+Dec 05 16:59:21 ..... started sorting BAM
+Dec 05 17:08:18 ..... finished successfully
+4626 seconds to completion
+rafter-14
+My SLURM_ARRAY_TASK_ID:  118
+SJ_292_S354_L003
+Dec 05 15:55:28 ..... started STAR run
+Dec 05 16:24:40 ..... loading genome
+Dec 05 16:26:09 ..... started mapping
+Dec 05 17:24:43 ..... started sorting BAM
+Dec 05 17:30:11 ..... finished successfully
+6331 seconds to completion
+rafter-14
+My SLURM_ARRAY_TASK_ID:  119
+SJ_293_S353_L003
+Dec 05 15:55:28 ..... started STAR run
+Dec 05 16:24:40 ..... loading genome
+Dec 05 16:26:09 ..... started mapping
+Dec 05 17:17:35 ..... started sorting BAM
+Dec 05 17:22:24 ..... finished successfully
+5728 seconds to completion
+drove-19
+My SLURM_ARRAY_TASK_ID:  120
+SJ_295_S352_L003
+Dec 05 15:34:43 ..... started STAR run
+Dec 05 15:34:45 ..... loading genome
+Dec 05 15:35:25 ..... started mapping
+Dec 05 16:11:32 ..... started sorting BAM
+Dec 05 16:13:40 ..... finished successfully
+2435 seconds to completion
+drove-19
+My SLURM_ARRAY_TASK_ID:  121
+SJ_296_S351_L003
+Dec 05 15:34:43 ..... started STAR run
+Dec 05 15:34:45 ..... loading genome
+Dec 05 15:35:25 ..... started mapping
+Dec 05 16:13:26 ..... started sorting BAM
+Dec 05 16:15:51 ..... finished successfully
+2509 seconds to completion
+rafter-39
+My SLURM_ARRAY_TASK_ID:  122
+SJ_297_S366_L003
+Dec 05 15:34:47 ..... started STAR run
+Dec 05 15:37:50 ..... loading genome
+Dec 05 15:39:09 ..... started mapping
+Dec 05 16:09:28 ..... started sorting BAM
+Dec 05 16:12:49 ..... finished successfully
+2431 seconds to completion
+rafter-34
+My SLURM_ARRAY_TASK_ID:  123
+SJ_298_S365_L003
+Dec 05 15:34:51 ..... started STAR run
+Dec 05 15:35:04 ..... loading genome
+Dec 05 15:41:01 ..... started mapping
+Dec 05 16:10:30 ..... started sorting BAM
+Dec 05 16:13:22 ..... finished successfully
+2427 seconds to completion
+fleet-30
+My SLURM_ARRAY_TASK_ID:  124
+SJ_299_S364_L003
+Dec 05 15:39:27 ..... started STAR run
+Dec 05 15:39:33 ..... loading genome
+Dec 05 15:41:38 ..... started mapping
+Dec 05 16:07:51 ..... started sorting BAM
+Dec 05 16:11:55 ..... finished successfully
+2127 seconds to completion
+fleet-30
+My SLURM_ARRAY_TASK_ID:  125
+SJ_300_S363_L003
+Dec 05 15:39:27 ..... started STAR run
+Dec 05 15:39:32 ..... loading genome
+Dec 05 15:41:38 ..... started mapping
+Dec 05 16:08:21 ..... started sorting BAM
+Dec 05 16:12:22 ..... finished successfully
+2144 seconds to completion
+fleet-19
+My SLURM_ARRAY_TASK_ID:  126
+SJ_301_S362_L003
+Dec 05 15:39:14 ..... started STAR run
+Dec 05 15:39:21 ..... loading genome
+Dec 05 15:39:31 ..... started mapping
+Dec 05 16:06:18 ..... started sorting BAM
+Dec 05 16:09:57 ..... finished successfully
+1967 seconds to completion
+rafter-18
+My SLURM_ARRAY_TASK_ID:  128
+SJ_303_S360_L003
+Dec 05 15:39:14 ..... started STAR run
+Dec 05 15:39:18 ..... loading genome
+Dec 05 15:39:30 ..... started mapping
+Dec 05 16:17:00 ..... started sorting BAM
+Dec 05 16:20:08 ..... finished successfully
+2460 seconds to completion
+fleet-14
+My SLURM_ARRAY_TASK_ID:  130
+SJ_305_S374_L003
+Dec 05 15:39:18 ..... started STAR run
+Dec 05 15:39:22 ..... loading genome
+Dec 05 15:46:22 ..... started mapping
+Dec 05 16:10:59 ..... started sorting BAM
+Dec 05 16:12:58 ..... finished successfully
+2146 seconds to completion
+fleet-11
+My SLURM_ARRAY_TASK_ID:  131
+SJ_306_S373_L003
+Dec 05 15:56:04 ..... started STAR run
+Dec 05 16:24:39 ..... loading genome
+Dec 05 16:26:21 ..... started mapping
+Dec 05 17:18:38 ..... started sorting BAM
+Dec 05 17:23:08 ..... finished successfully
+5407 seconds to completion
+fleet-0
+My SLURM_ARRAY_TASK_ID:  132
+SJ_307_S372_L003
+Dec 05 15:39:17 ..... started STAR run
+Dec 05 15:39:23 ..... loading genome
+Dec 05 15:46:21 ..... started mapping
+Dec 05 16:16:28 ..... started sorting BAM
+Dec 05 16:19:17 ..... finished successfully
+2415 seconds to completion
+fleet-0
+My SLURM_ARRAY_TASK_ID:  133
+SJ_308_S371_L003
+Dec 05 15:39:17 ..... started STAR run
+Dec 05 15:39:22 ..... loading genome
+Dec 05 15:46:21 ..... started mapping
+Dec 05 16:13:45 ..... started sorting BAM
+Dec 05 16:17:17 ..... finished successfully
+2300 seconds to completion
+rafter-4
+My SLURM_ARRAY_TASK_ID:  134
+SJ_312_S370_L003
+Dec 05 15:39:14 ..... started STAR run
+Dec 05 15:39:20 ..... loading genome
+Dec 05 15:39:30 ..... started mapping
+Dec 05 16:09:53 ..... started sorting BAM
+Dec 05 16:14:10 ..... finished successfully
+2188 seconds to completion
+rafter-3
+My SLURM_ARRAY_TASK_ID:  135
+SJ_313_S369_L003
+Dec 05 15:39:14 ..... started STAR run
+Dec 05 15:39:19 ..... loading genome
+Dec 05 15:39:28 ..... started mapping
+Dec 05 16:11:04 ..... started sorting BAM
+Dec 05 16:13:38 ..... finished successfully
+2185 seconds to completion
+fleet-38
+My SLURM_ARRAY_TASK_ID:  136
+SJ_314_S368_L003
+Dec 05 15:39:27 ..... started STAR run
+Dec 05 15:39:33 ..... loading genome
+Dec 05 15:46:21 ..... started mapping
+Dec 05 16:12:31 ..... started sorting BAM
+Dec 05 16:14:18 ..... finished successfully
+2162 seconds to completion
+rafter-21
+My SLURM_ARRAY_TASK_ID:  139
+SJ_317_S379_L003
+Dec 05 15:39:14 ..... started STAR run
+Dec 05 15:39:28 ..... loading genome
+Dec 05 15:39:39 ..... started mapping
+Dec 05 16:06:15 ..... started sorting BAM
+Dec 05 16:09:01 ..... finished successfully
+1879 seconds to completion
+rafter-34
+My SLURM_ARRAY_TASK_ID:  140
+SJ_318_S378_L003
+Dec 05 15:39:21 ..... started STAR run
+Dec 05 15:40:14 ..... loading genome
+Dec 05 15:41:01 ..... started mapping
+Dec 05 16:10:25 ..... started sorting BAM
+Dec 05 16:13:22 ..... finished successfully
+2159 seconds to completion
+fleet-13
+My SLURM_ARRAY_TASK_ID:  141
+SJ_319_S377_L003
+Dec 05 15:56:53 ..... started STAR run
+Dec 05 16:24:40 ..... loading genome
+Dec 05 16:26:08 ..... started mapping
+Dec 05 17:25:15 ..... started sorting BAM
+Dec 05 17:30:21 ..... finished successfully
+5926 seconds to completion
+rafter-6
+My SLURM_ARRAY_TASK_ID:  142
+SJ_321_S376_L003
+Dec 05 16:08:37 ..... started STAR run
+Dec 05 16:24:44 ..... loading genome
+Dec 05 16:26:09 ..... started mapping
+Dec 05 17:09:54 ..... started sorting BAM
+Dec 05 17:14:48 ..... finished successfully
+4290 seconds to completion
+rafter-10
+My SLURM_ARRAY_TASK_ID:  143
+SJ_322_S375_L003
+Dec 05 15:43:40 ..... started STAR run
+Dec 05 15:44:09 ..... loading genome
+Dec 05 15:51:50 ..... started mapping
+Dec 05 16:12:46 ..... started sorting BAM
+Dec 05 16:15:41 ..... finished successfully
+1974 seconds to completion
+fleet-35
+My SLURM_ARRAY_TASK_ID:  15
+SJ_162_S461_L003
+Dec 05 15:32:34 ..... started STAR run
+Dec 05 16:25:01 ..... loading genome
+Dec 05 16:26:08 ..... started mapping
+Dec 05 17:19:09 ..... started sorting BAM
+Dec 05 17:22:49 ..... finished successfully
+6645 seconds to completion
+fleet-7
+My SLURM_ARRAY_TASK_ID:  19
+SJ_191_S297_L003
+Dec 05 15:32:03 ..... started STAR run
+Dec 05 15:32:55 ..... loading genome
+Dec 05 15:33:28 ..... started mapping
+Dec 05 16:08:37 ..... started sorting BAM
+Dec 05 16:13:40 ..... finished successfully
+2606 seconds to completion
+fleet-17
+My SLURM_ARRAY_TASK_ID:  1
+K128_S402_L003
+Dec 05 13:25:14 ..... started STAR run
+Dec 05 13:25:21 ..... loading genome
+Dec 05 13:26:42 ..... started mapping
+Dec 05 13:48:22 ..... started sorting BAM
+Dec 05 13:49:02 ..... finished successfully
+1436 seconds to completion
+fleet-7
+My SLURM_ARRAY_TASK_ID:  20
+SJ_192_S470_L003
+Dec 05 15:32:03 ..... started STAR run
+Dec 05 15:32:07 ..... loading genome
+Dec 05 15:33:28 ..... started mapping
+Dec 05 16:05:32 ..... started sorting BAM
+Dec 05 16:10:56 ..... finished successfully
+2488 seconds to completion
+fleet-26
+My SLURM_ARRAY_TASK_ID:  24
+SJ_197_S481_L003
+Dec 05 15:33:15 ..... started STAR run
+Dec 05 16:25:33 ..... loading genome
+Dec 05 16:26:01 ..... started mapping
+Dec 05 17:41:00 ..... started sorting BAM
+Dec 05 17:48:43 ..... finished successfully
+8175 seconds to completion
+fleet-26
+My SLURM_ARRAY_TASK_ID:  25
+SJ_198_S480_L003
+Dec 05 15:33:17 ..... started STAR run
+Dec 05 16:02:44 ..... loading genome
+Dec 05 16:26:01 ..... started mapping
+Dec 05 17:43:01 ..... started sorting BAM
+Dec 05 17:49:43 ..... finished successfully
+8234 seconds to completion
+fleet-28
+My SLURM_ARRAY_TASK_ID:  26
+SJ_199_S479_L003
+Dec 05 15:32:33 ..... started STAR run
+Dec 05 16:03:12 ..... loading genome
+Dec 05 16:26:04 ..... started mapping
+Dec 05 17:15:43 ..... started sorting BAM
+Dec 05 17:20:44 ..... finished successfully
+6541 seconds to completion
+fleet-25
+My SLURM_ARRAY_TASK_ID:  27
+SJ_200_S478_L003
+Dec 05 15:32:06 ..... started STAR run
+Dec 05 15:32:08 ..... loading genome
+Dec 05 15:33:41 ..... started mapping
+Dec 05 16:08:19 ..... started sorting BAM
+Dec 05 16:13:06 ..... finished successfully
+2599 seconds to completion
+fleet-25
+My SLURM_ARRAY_TASK_ID:  28
+SJ_201_S477_L003
+Dec 05 15:32:06 ..... started STAR run
+Dec 05 15:32:49 ..... loading genome
+Dec 05 15:33:41 ..... started mapping
+Dec 05 16:07:49 ..... started sorting BAM
+Dec 05 16:12:12 ..... finished successfully
+2581 seconds to completion
+fleet-25
+My SLURM_ARRAY_TASK_ID:  29
+SJ_202_S476_L003
+Dec 05 15:32:06 ..... started STAR run
+Dec 05 15:32:51 ..... loading genome
+Dec 05 15:33:41 ..... started mapping
+Dec 05 16:02:09 ..... started sorting BAM
+Dec 05 16:05:44 ..... finished successfully
+2043 seconds to completion
+rafter-3
+My SLURM_ARRAY_TASK_ID:  2
+K129_S401_L003
+Dec 05 14:23:33 ..... started STAR run
+Dec 05 14:23:35 ..... loading genome
+Dec 05 14:25:14 ..... started mapping
+Dec 05 14:54:28 ..... started sorting BAM
+Dec 05 14:55:18 ..... finished successfully
+1910 seconds to completion
+fleet-16
+My SLURM_ARRAY_TASK_ID:  31
+SJ_204_S490_L003
+Dec 05 15:32:08 ..... started STAR run
+Dec 05 15:32:20 ..... loading genome
+Dec 05 15:34:01 ..... started mapping
+Dec 05 16:14:27 ..... started sorting BAM
+Dec 05 16:18:02 ..... finished successfully
+2770 seconds to completion
+fleet-16
+My SLURM_ARRAY_TASK_ID:  32
+SJ_205_S489_L003
+Dec 05 15:32:08 ..... started STAR run
+Dec 05 15:32:13 ..... loading genome
+Dec 05 15:34:01 ..... started mapping
+Dec 05 16:20:21 ..... started sorting BAM
+Dec 05 16:24:15 ..... finished successfully
+3150 seconds to completion
+fleet-16
+My SLURM_ARRAY_TASK_ID:  33
+SJ_206_S488_L003
+Dec 05 15:32:08 ..... started STAR run
+Dec 05 15:32:18 ..... loading genome
+Dec 05 15:34:01 ..... started mapping
+Dec 05 16:09:57 ..... started sorting BAM
+Dec 05 16:13:51 ..... finished successfully
+2618 seconds to completion
+rafter-39
+My SLURM_ARRAY_TASK_ID:  3
+K130_S400_L003
+Dec 05 14:23:38 ..... started STAR run
+Dec 05 14:23:39 ..... loading genome
+Dec 05 14:25:29 ..... started mapping
+Dec 05 14:48:49 ..... started sorting BAM
+Dec 05 14:49:36 ..... finished successfully
+1566 seconds to completion
+fleet-13
+My SLURM_ARRAY_TASK_ID:  41
+SJ_214_S296_L003
+Dec 05 15:33:07 ..... started STAR run
+Dec 05 16:24:54 ..... loading genome
+Dec 05 16:26:08 ..... started mapping
+Dec 05 17:34:38 ..... started sorting BAM
+Dec 05 17:39:57 ..... finished successfully
+7648 seconds to completion
+fleet-13
+My SLURM_ARRAY_TASK_ID:  42
+SJ_215_S295_L003
+Dec 05 15:33:06 ..... started STAR run
+Dec 05 16:25:01 ..... loading genome
+Dec 05 16:26:08 ..... started mapping
+Dec 05 17:31:00 ..... started sorting BAM
+Dec 05 17:39:15 ..... finished successfully
+7606 seconds to completion
+fleet-13
+My SLURM_ARRAY_TASK_ID:  43
+SJ_216_S310_L003
+Dec 05 15:33:12 ..... started STAR run
+Dec 05 16:24:52 ..... loading genome
+Dec 05 16:26:08 ..... started mapping
+Dec 05 17:30:39 ..... started sorting BAM
+Dec 05 17:38:11 ..... finished successfully
+7582 seconds to completion
+fleet-12
+My SLURM_ARRAY_TASK_ID:  45
+SJ_218_S496_L003
+Dec 05 15:32:03 ..... started STAR run
+Dec 05 15:32:10 ..... loading genome
+Dec 05 15:33:42 ..... started mapping
+Dec 05 16:05:07 ..... started sorting BAM
+Dec 05 16:10:27 ..... finished successfully
+2395 seconds to completion
+fleet-12
+My SLURM_ARRAY_TASK_ID:  46
+SJ_219_S495_L003
+Dec 05 15:32:03 ..... started STAR run
+Dec 05 15:32:16 ..... loading genome
+Dec 05 15:33:42 ..... started mapping
+Dec 05 16:07:21 ..... started sorting BAM
+Dec 05 16:12:03 ..... finished successfully
+2494 seconds to completion
+fleet-2
+My SLURM_ARRAY_TASK_ID:  48
+SJ_221_S493_L003
+Dec 05 15:33:17 ..... started STAR run
+Dec 05 16:24:20 ..... loading genome
+Dec 05 16:26:04 ..... started mapping
+Dec 05 16:56:42 ..... started sorting BAM
+Dec 05 17:06:02 ..... finished successfully
+5635 seconds to completion
+fleet-5
+My SLURM_ARRAY_TASK_ID:  49
+SJ_222_S492_L003
+Dec 05 15:32:04 ..... started STAR run
+Dec 05 15:32:10 ..... loading genome
+Dec 05 15:33:30 ..... started mapping
+Dec 05 16:08:46 ..... started sorting BAM
+Dec 05 16:12:34 ..... finished successfully
+2569 seconds to completion
+fleet-5
+My SLURM_ARRAY_TASK_ID:  4
+K131_S399_L003
+Dec 05 14:43:16 ..... started STAR run
+Dec 05 14:43:18 ..... loading genome
+Dec 05 14:44:45 ..... started mapping
+Dec 05 15:17:08 ..... started sorting BAM
+Dec 05 15:18:00 ..... finished successfully
+2094 seconds to completion
+fleet-4
+My SLURM_ARRAY_TASK_ID:  53
+SJ_226_S505_L003
+Dec 05 15:32:07 ..... started STAR run
+Dec 05 15:32:10 ..... loading genome
+Dec 05 15:33:42 ..... started mapping
+Dec 05 16:02:43 ..... started sorting BAM
+Dec 05 16:06:30 ..... finished successfully
+2089 seconds to completion
+rafter-16
+My SLURM_ARRAY_TASK_ID:  54
+SJ_227_S504_L003
+Dec 05 15:32:03 ..... started STAR run
+Dec 05 15:32:11 ..... loading genome
+Dec 05 15:33:41 ..... started mapping
+Dec 05 16:10:01 ..... started sorting BAM
+Dec 05 16:13:41 ..... finished successfully
+2591 seconds to completion
+rafter-16
+My SLURM_ARRAY_TASK_ID:  55
+SJ_228_S503_L003
+Dec 05 15:32:03 ..... started STAR run
+Dec 05 15:32:11 ..... loading genome
+Dec 05 15:33:41 ..... started mapping
+Dec 05 16:16:03 ..... started sorting BAM
+Dec 05 16:19:17 ..... finished successfully
+2850 seconds to completion
+rafter-18
+My SLURM_ARRAY_TASK_ID:  56
+SJ_229_S502_L003
+Dec 05 15:32:04 ..... started STAR run
+Dec 05 15:32:10 ..... loading genome
+Dec 05 15:33:30 ..... started mapping
+Dec 05 16:11:41 ..... started sorting BAM
+Dec 05 16:15:37 ..... finished successfully
+2670 seconds to completion
+rafter-12
+My SLURM_ARRAY_TASK_ID:  57
+SJ_230_S308_L003
+Dec 05 15:31:52 ..... started STAR run
+Dec 05 15:31:56 ..... loading genome
+Dec 05 15:33:28 ..... started mapping
+Dec 05 16:07:25 ..... started sorting BAM
+Dec 05 16:11:52 ..... finished successfully
+2536 seconds to completion
+fleet-6
+My SLURM_ARRAY_TASK_ID:  5
+SJ_149_S456_L003
+Dec 05 14:43:16 ..... started STAR run
+Dec 05 14:43:27 ..... loading genome
+Dec 05 14:44:52 ..... started mapping
+Dec 05 14:54:31 ..... started sorting BAM
+Dec 05 14:55:42 ..... finished successfully
+752 seconds to completion
+rafter-11
+My SLURM_ARRAY_TASK_ID:  60
+SJ_233_S500_L003
+Dec 05 15:33:23 ..... started STAR run
+Dec 05 16:24:39 ..... loading genome
+Dec 05 16:26:11 ..... started mapping
+Dec 05 17:27:41 ..... started sorting BAM
+Dec 05 17:32:19 ..... finished successfully
+7402 seconds to completion
+rafter-11
+My SLURM_ARRAY_TASK_ID:  61
+SJ_234_S515_L003
+Dec 05 15:33:22 ..... started STAR run
+Dec 05 16:24:42 ..... loading genome
+Dec 05 16:26:11 ..... started mapping
+Dec 05 17:18:39 ..... started sorting BAM
+Dec 05 17:23:54 ..... finished successfully
+6747 seconds to completion
+fleet-17
+My SLURM_ARRAY_TASK_ID:  6
+SJ_150_S455_L003
+Dec 05 14:44:22 ..... started STAR run
+Dec 05 14:44:26 ..... loading genome
+Dec 05 14:46:02 ..... started mapping
+Dec 05 15:00:23 ..... started sorting BAM
+Dec 05 15:01:57 ..... finished successfully
+1062 seconds to completion
+rafter-8
+My SLURM_ARRAY_TASK_ID:  71
+SJ_244_S508_L003
+Dec 05 15:32:00 ..... started STAR run
+Dec 05 15:32:04 ..... loading genome
+Dec 05 15:33:27 ..... started mapping
+Dec 05 16:07:57 ..... started sorting BAM
+Dec 05 16:12:25 ..... finished successfully
+2551 seconds to completion
+rafter-7
+My SLURM_ARRAY_TASK_ID:  72
+SJ_245_S303_L003
+Dec 05 15:32:16 ..... started STAR run
+Dec 05 16:24:38 ..... loading genome
+Dec 05 16:26:11 ..... started mapping
+Dec 05 17:30:46 ..... started sorting BAM
+Dec 05 17:35:17 ..... finished successfully
+7534 seconds to completion
+rafter-7
+My SLURM_ARRAY_TASK_ID:  73
+SJ_246_S318_L003
+Dec 05 15:32:16 ..... started STAR run
+Dec 05 16:24:39 ..... loading genome
+Dec 05 16:26:11 ..... started mapping
+Dec 05 17:22:54 ..... started sorting BAM
+Dec 05 17:29:55 ..... finished successfully
+7257 seconds to completion
+rafter-4
+My SLURM_ARRAY_TASK_ID:  74
+SJ_247_S516_L003
+Dec 05 15:32:03 ..... started STAR run
+Dec 05 15:32:12 ..... loading genome
+Dec 05 15:33:45 ..... started mapping
+Dec 05 16:06:47 ..... started sorting BAM
+Dec 05 16:11:04 ..... finished successfully
+2427 seconds to completion
+rafter-4
+My SLURM_ARRAY_TASK_ID:  75
+SJ_248_S317_L003
+Dec 05 15:32:03 ..... started STAR run
+Dec 05 15:32:11 ..... loading genome
+Dec 05 15:33:45 ..... started mapping
+Dec 05 16:05:19 ..... started sorting BAM
+Dec 05 16:10:38 ..... finished successfully
+2386 seconds to completion
+rafter-5
+My SLURM_ARRAY_TASK_ID:  76
+SJ_249_S316_L003
+Dec 05 15:32:45 ..... started STAR run
+Dec 05 16:24:40 ..... loading genome
+Dec 05 16:26:24 ..... started mapping
+Dec 05 17:30:21 ..... started sorting BAM
+Dec 05 17:35:45 ..... finished successfully
+7532 seconds to completion
+rafter-5
+My SLURM_ARRAY_TASK_ID:  77
+SJ_250_S315_L003
+Dec 05 15:32:43 ..... started STAR run
+Dec 05 16:24:40 ..... loading genome
+Dec 05 16:26:24 ..... started mapping
+Dec 05 17:24:18 ..... started sorting BAM
+Dec 05 17:30:02 ..... finished successfully
+7250 seconds to completion
+rafter-2
+My SLURM_ARRAY_TASK_ID:  78
+SJ_251_S314_L003
+Dec 05 15:32:05 ..... started STAR run
+Dec 05 15:32:11 ..... loading genome
+Dec 05 15:33:48 ..... started mapping
+Dec 05 16:05:18 ..... started sorting BAM
+Dec 05 16:09:49 ..... finished successfully
+2369 seconds to completion
+rafter-2
+My SLURM_ARRAY_TASK_ID:  79
+SJ_252_S313_L003
+Dec 05 15:32:05 ..... started STAR run
+Dec 05 15:32:11 ..... loading genome
+Dec 05 15:33:48 ..... started mapping
+Dec 05 16:03:13 ..... started sorting BAM
+Dec 05 16:07:51 ..... finished successfully
+2170 seconds to completion
+fleet-17
+My SLURM_ARRAY_TASK_ID:  7
+SJ_152_S453_L003
+Dec 05 15:02:13 ..... started STAR run
+Dec 05 15:02:14 ..... loading genome
+Dec 05 15:03:36 ..... started mapping
+Dec 05 15:12:02 ..... started sorting BAM
+Dec 05 15:13:25 ..... finished successfully
+679 seconds to completion
+rafter-3
+My SLURM_ARRAY_TASK_ID:  80
+SJ_253_S312_L003
+Dec 05 15:32:03 ..... started STAR run
+Dec 05 15:32:11 ..... loading genome
+Dec 05 15:33:38 ..... started mapping
+Dec 05 16:15:30 ..... started sorting BAM
+Dec 05 16:18:37 ..... finished successfully
+2803 seconds to completion
+rafter-3
+My SLURM_ARRAY_TASK_ID:  81
+SJ_254_S311_L003
+Dec 05 15:32:03 ..... started STAR run
+Dec 05 15:32:13 ..... loading genome
+Dec 05 15:33:38 ..... started mapping
+Dec 05 16:14:14 ..... started sorting BAM
+Dec 05 16:18:38 ..... finished successfully
+2813 seconds to completion
+drove-16
+My SLURM_ARRAY_TASK_ID:  82
+SJ_255_S326_L003
+Dec 05 15:32:03 ..... started STAR run
+Dec 05 15:32:08 ..... loading genome
+Dec 05 15:33:00 ..... started mapping
+Dec 05 16:04:45 ..... started sorting BAM
+Dec 05 16:08:22 ..... finished successfully
+2203 seconds to completion
+drove-9
+My SLURM_ARRAY_TASK_ID:  83
+SJ_256_S325_L003
+Dec 05 15:32:37 ..... started STAR run
+Dec 05 16:11:59 ..... loading genome
+Dec 05 16:25:29 ..... started mapping
+Dec 05 17:14:51 ..... started sorting BAM
+Dec 05 17:19:42 ..... finished successfully
+6456 seconds to completion
+drove-0
+My SLURM_ARRAY_TASK_ID:  84
+SJ_257_S324_L003
+Dec 05 15:33:41 ..... started STAR run
+Dec 05 16:20:27 ..... loading genome
+Dec 05 16:25:29 ..... started mapping
+Dec 05 16:58:06 ..... started sorting BAM
+Dec 05 17:07:44 ..... finished successfully
+5725 seconds to completion
+drove-17
+My SLURM_ARRAY_TASK_ID:  85
+SJ_258_S323_L003
+Dec 05 15:32:28 ..... started STAR run
+Dec 05 16:22:57 ..... loading genome
+Dec 05 16:25:29 ..... started mapping
+Dec 05 17:17:52 ..... started sorting BAM
+Dec 05 17:22:35 ..... finished successfully
+6637 seconds to completion
+drove-7
+My SLURM_ARRAY_TASK_ID:  88
+SJ_261_S320_L003
+Dec 05 15:32:52 ..... started STAR run
+Dec 05 16:24:39 ..... loading genome
+Dec 05 16:25:29 ..... started mapping
+Dec 05 16:44:15 ..... started sorting BAM
+Dec 05 16:53:12 ..... finished successfully
+4877 seconds to completion
+drove-7
+My SLURM_ARRAY_TASK_ID:  89
+SJ_262_S319_L003
+Dec 05 15:32:49 ..... started STAR run
+Dec 05 16:24:39 ..... loading genome
+Dec 05 16:25:29 ..... started mapping
+Dec 05 16:45:24 ..... started sorting BAM
+Dec 05 16:54:26 ..... finished successfully
+4944 seconds to completion
+rafter-14
+My SLURM_ARRAY_TASK_ID:  8
+SJ_153_S452_L003
+Dec 05 15:18:21 ..... started STAR run
+Dec 05 15:18:22 ..... loading genome
+Dec 05 15:20:03 ..... started mapping
+Dec 05 15:28:02 ..... started sorting BAM
+Dec 05 15:29:17 ..... finished successfully
+661 seconds to completion
+drove-4
+My SLURM_ARRAY_TASK_ID:  90
+SJ_263_S334_L003
+Dec 05 15:32:56 ..... started STAR run
+Dec 05 16:24:40 ..... loading genome
+Dec 05 16:25:29 ..... started mapping
+Dec 05 16:52:25 ..... started sorting BAM
+Dec 05 17:03:14 ..... finished successfully
+5513 seconds to completion
+rafter-21
+My SLURM_ARRAY_TASK_ID:  91
+SJ_264_S333_L003
+Dec 05 15:32:08 ..... started STAR run
+Dec 05 15:32:13 ..... loading genome
+Dec 05 15:39:13 ..... started mapping
+Dec 05 16:09:26 ..... started sorting BAM
+Dec 05 16:13:07 ..... finished successfully
+2579 seconds to completion
+rafter-39
+My SLURM_ARRAY_TASK_ID:  92
+SJ_265_S332_L003
+Dec 05 15:32:07 ..... started STAR run
+Dec 05 15:32:12 ..... loading genome
+Dec 05 15:39:09 ..... started mapping
+Dec 05 16:13:10 ..... started sorting BAM
+Dec 05 16:16:57 ..... finished successfully
+2723 seconds to completion
+rafter-24
+My SLURM_ARRAY_TASK_ID:  93
+SJ_266_S331_L003
+Dec 05 15:32:04 ..... started STAR run
+Dec 05 15:32:14 ..... loading genome
+Dec 05 15:39:11 ..... started mapping
+Dec 05 16:12:38 ..... started sorting BAM
+Dec 05 16:16:05 ..... finished successfully
+2675 seconds to completion
+rafter-24
+My SLURM_ARRAY_TASK_ID:  94
+SJ_267_S330_L003
+Dec 05 15:32:04 ..... started STAR run
+Dec 05 15:32:14 ..... loading genome
+Dec 05 15:39:11 ..... started mapping
+Dec 05 16:17:20 ..... started sorting BAM
+Dec 05 16:19:06 ..... finished successfully
+2831 seconds to completion
+rafter-24
+My SLURM_ARRAY_TASK_ID:  95
+SJ_268_S329_L003
+Dec 05 15:32:04 ..... started STAR run
+Dec 05 15:32:14 ..... loading genome
+Dec 05 15:39:11 ..... started mapping
+Dec 05 16:13:50 ..... started sorting BAM
+Dec 05 16:16:56 ..... finished successfully
+2712 seconds to completion
+rafter-33
+My SLURM_ARRAY_TASK_ID:  96
+SJ_269_S328_L003
+Dec 05 15:32:08 ..... started STAR run
+Dec 05 15:32:12 ..... loading genome
+Dec 05 15:39:10 ..... started mapping
+Dec 05 16:09:08 ..... started sorting BAM
+Dec 05 16:12:31 ..... finished successfully
+2582 seconds to completion
+fleet-23
+My SLURM_ARRAY_TASK_ID:  99
+SJ_272_S341_L003
+Dec 05 15:34:43 ..... started STAR run
+Dec 05 15:34:45 ..... loading genome
+Dec 05 15:36:17 ..... started mapping
+Dec 05 16:04:29 ..... started sorting BAM
+Dec 05 16:08:41 ..... finished successfully
+2066 seconds to completion
+drove-19
+My SLURM_ARRAY_TASK_ID:  10
+K122_S392_L003
+Dec 05 11:27:36 ..... started STAR run
+Dec 05 11:27:37 ..... loading genome
+Dec 05 11:27:59 ..... started mapping
+Dec 05 12:01:59 ..... started sorting BAM
+Dec 05 12:02:31 ..... finished successfully
+2106 seconds to completion
+rafter-18
+My SLURM_ARRAY_TASK_ID:  11
+K123_S391_L003
+Dec 05 11:28:04 ..... started STAR run
+Dec 05 11:28:13 ..... loading genome
+Dec 05 11:28:38 ..... started mapping
+Dec 05 12:08:43 ..... started sorting BAM
+Dec 05 12:09:28 ..... finished successfully
+2488 seconds to completion
+rafter-8
+My SLURM_ARRAY_TASK_ID:  12
+K124_S390_L003
+Dec 05 11:31:30 ..... started STAR run
+Dec 05 11:31:31 ..... loading genome
+Dec 05 11:32:51 ..... started mapping
+Dec 05 12:05:41 ..... started sorting BAM
+Dec 05 12:06:28 ..... finished successfully
+2107 seconds to completion
+drove-7
+My SLURM_ARRAY_TASK_ID:  13
+K125_S389_L003
+Dec 05 11:47:47 ..... started STAR run
+Dec 05 11:47:47 ..... loading genome
+Dec 05 11:48:03 ..... started mapping
+Dec 05 12:30:36 ..... started sorting BAM
+Dec 05 12:31:19 ..... finished successfully
+2624 seconds to completion
+rafter-6
+My SLURM_ARRAY_TASK_ID:  14
+K126_S404_L003
+Dec 05 11:49:21 ..... started STAR run
+Dec 05 12:03:33 ..... loading genome
+Dec 05 12:05:07 ..... started mapping
+Dec 05 12:50:43 ..... started sorting BAM
+Dec 05 12:51:30 ..... finished successfully
+3737 seconds to completion
+drove-17
+My SLURM_ARRAY_TASK_ID:  15
+K127_S403_L003
+Dec 05 11:50:20 ..... started STAR run
+Dec 05 12:03:37 ..... loading genome
+Dec 05 12:04:47 ..... started mapping
+Dec 05 12:29:54 ..... started sorting BAM
+Dec 05 12:30:40 ..... finished successfully
+2458 seconds to completion
+rafter-4
+My SLURM_ARRAY_TASK_ID:  16
+K132_S398_L003
+Dec 05 12:14:33 ..... started STAR run
+Dec 05 12:14:33 ..... loading genome
+Dec 05 12:15:57 ..... started mapping
+Dec 05 12:40:36 ..... started sorting BAM
+Dec 05 12:41:26 ..... finished successfully
+1619 seconds to completion
+rafter-8
+My SLURM_ARRAY_TASK_ID:  17
+K133_S397_L003
+Dec 05 12:19:07 ..... started STAR run
+Dec 05 12:19:07 ..... loading genome
+Dec 05 12:20:26 ..... started mapping
+Dec 05 12:46:14 ..... started sorting BAM
+Dec 05 12:47:04 ..... finished successfully
+1682 seconds to completion
+fleet-2
+My SLURM_ARRAY_TASK_ID:  18
+K136_S412_L003
+Dec 05 12:27:50 ..... started STAR run
+Dec 05 12:27:51 ..... loading genome
+Dec 05 12:30:02 ..... started mapping
+Dec 05 12:46:31 ..... started sorting BAM
+Dec 05 12:47:42 ..... finished successfully
+1198 seconds to completion
+fleet-31
+My SLURM_ARRAY_TASK_ID:  19
+K137_S411_L003
+Dec 05 12:27:48 ..... started STAR run
+Dec 05 12:27:48 ..... loading genome
+Dec 05 12:29:40 ..... started mapping
+Dec 05 12:40:29 ..... started sorting BAM
+Dec 05 12:41:56 ..... finished successfully
+855 seconds to completion
+rafter-18
+My SLURM_ARRAY_TASK_ID:  1
+K100_S286_L003
+Dec 05 11:27:08 ..... started STAR run
+Dec 05 11:27:09 ..... loading genome
+Dec 05 11:28:38 ..... started mapping
+Dec 05 11:48:15 ..... started sorting BAM
+Dec 05 11:55:50 ..... finished successfully
+1733 seconds to completion
+fleet-9
+My SLURM_ARRAY_TASK_ID:  20
+K173_S284_L003
+Dec 05 12:28:45 ..... started STAR run
+Dec 05 12:28:45 ..... loading genome
+Dec 05 12:30:04 ..... started mapping
+Dec 05 12:45:24 ..... started sorting BAM
+Dec 05 12:46:53 ..... finished successfully
+1097 seconds to completion
+fleet-15
+My SLURM_ARRAY_TASK_ID:  21
+K174_S283_L003
+Dec 05 12:28:45 ..... started STAR run
+Dec 05 12:28:46 ..... loading genome
+Dec 05 12:30:05 ..... started mapping
+Dec 05 12:44:57 ..... started sorting BAM
+Dec 05 12:46:15 ..... finished successfully
+1062 seconds to completion
+fleet-5
+My SLURM_ARRAY_TASK_ID:  22
+K175_S282_L003
+Dec 05 12:28:44 ..... started STAR run
+Dec 05 12:28:45 ..... loading genome
+Dec 05 12:30:04 ..... started mapping
+Dec 05 12:47:37 ..... started sorting BAM
+Dec 05 12:49:13 ..... finished successfully
+1235 seconds to completion
+rafter-24
+My SLURM_ARRAY_TASK_ID:  23
+K176_S281_L003
+Dec 05 12:28:51 ..... started STAR run
+Dec 05 12:28:51 ..... loading genome
+Dec 05 12:30:11 ..... started mapping
+Dec 05 12:42:10 ..... started sorting BAM
+Dec 05 12:43:33 ..... finished successfully
+890 seconds to completion
+fleet-13
+My SLURM_ARRAY_TASK_ID:  24
+K177_S280_L003
+Dec 05 12:55:09 ..... started STAR run
+Dec 05 12:55:09 ..... loading genome
+Dec 05 12:56:37 ..... started mapping
+Dec 05 15:17:53 ..... started sorting BAM
+Dec 05 15:19:54 ..... finished successfully
+8692 seconds to completion
+fleet-7
+My SLURM_ARRAY_TASK_ID:  25
+K178_S279_L003
+Dec 05 12:55:09 ..... started STAR run
+Dec 05 12:55:09 ..... loading genome
+Dec 05 12:56:33 ..... started mapping
+Dec 05 13:11:06 ..... started sorting BAM
+Dec 05 13:12:46 ..... finished successfully
+1067 seconds to completion
+fleet-15
+My SLURM_ARRAY_TASK_ID:  26
+K179_S294_L003
+Dec 05 12:55:08 ..... started STAR run
+Dec 05 12:55:08 ..... loading genome
+Dec 05 12:56:31 ..... started mapping
+Dec 05 13:09:44 ..... started sorting BAM
+Dec 05 13:11:16 ..... finished successfully
+979 seconds to completion
+rafter-2
+My SLURM_ARRAY_TASK_ID:  27
+K181_S293_L003
+Dec 05 12:55:08 ..... started STAR run
+Dec 05 12:55:09 ..... loading genome
+Dec 05 12:56:31 ..... started mapping
+Dec 05 13:12:56 ..... started sorting BAM
+Dec 05 13:14:31 ..... finished successfully
+1173 seconds to completion
+rafter-14
+My SLURM_ARRAY_TASK_ID:  28
+K183_S292_L003
+Dec 05 12:55:09 ..... started STAR run
+Dec 05 12:55:09 ..... loading genome
+Dec 05 12:56:37 ..... started mapping
+Dec 05 15:16:31 ..... started sorting BAM
+Dec 05 15:17:58 ..... finished successfully
+8577 seconds to completion
+fleet-31
+My SLURM_ARRAY_TASK_ID:  29
+K184_S291_L003
+Dec 05 12:55:40 ..... started STAR run
+Dec 05 12:55:40 ..... loading genome
+Dec 05 12:57:30 ..... started mapping
+Dec 05 13:13:03 ..... started sorting BAM
+Dec 05 13:14:39 ..... finished successfully
+1148 seconds to completion
+fleet-31
+My SLURM_ARRAY_TASK_ID:  2
+K101_S285_L003
+Dec 05 11:27:08 ..... started STAR run
+Dec 05 11:27:09 ..... loading genome
+Dec 05 11:28:38 ..... started mapping
+Dec 05 11:44:44 ..... started sorting BAM
+Dec 05 11:46:29 ..... finished successfully
+1175 seconds to completion
+fleet-16
+My SLURM_ARRAY_TASK_ID:  30
+K185_S290_L003
+Dec 05 13:08:55 ..... started STAR run
+Dec 05 13:08:55 ..... loading genome
+Dec 05 13:10:15 ..... started mapping
+Dec 05 13:41:32 ..... started sorting BAM
+Dec 05 13:41:38 ..... finished successfully
+1968 seconds to completion
+fleet-16
+My SLURM_ARRAY_TASK_ID:  31
+K186_S289_L003
+Dec 05 13:08:55 ..... started STAR run
+Dec 05 13:08:55 ..... loading genome
+Dec 05 13:10:15 ..... started mapping
+Dec 05 13:38:31 ..... started sorting BAM
+Dec 05 13:38:36 ..... finished successfully
+1784 seconds to completion
+drove-0
+My SLURM_ARRAY_TASK_ID:  32
+K188_S288_L003
+Dec 05 13:09:00 ..... started STAR run
+Dec 05 13:09:01 ..... loading genome
+Dec 05 13:09:18 ..... started mapping
+Dec 05 15:15:03 ..... started sorting BAM
+Dec 05 15:16:21 ..... finished successfully
+7650 seconds to completion
+drove-19
+My SLURM_ARRAY_TASK_ID:  33
+K189_S410_L003
+Dec 05 13:08:54 ..... started STAR run
+Dec 05 13:08:54 ..... loading genome
+Dec 05 13:09:10 ..... started mapping
+Dec 05 13:15:48 ..... started sorting BAM
+Dec 05 13:16:31 ..... finished successfully
+461 seconds to completion
+rafter-16
+My SLURM_ARRAY_TASK_ID:  34
+K190_S409_L003
+Dec 05 13:41:48 ..... started STAR run
+Dec 05 13:41:48 ..... loading genome
+Dec 05 13:43:20 ..... started mapping
+Dec 05 13:52:52 ..... started sorting BAM
+Dec 05 13:54:14 ..... finished successfully
+750 seconds to completion
+drove-9
+My SLURM_ARRAY_TASK_ID:  35
+K191_S408_L003
+Dec 05 13:56:44 ..... started STAR run
+Dec 05 13:58:58 ..... loading genome
+Dec 05 15:08:40 ..... started mapping
+Dec 05 15:25:04 ..... started sorting BAM
+Dec 05 15:26:33 ..... finished successfully
+5446 seconds to completion
+fleet-38
+My SLURM_ARRAY_TASK_ID:  36
+K192_S407_L003
+Dec 05 13:58:57 ..... started STAR run
+Dec 05 13:58:57 ..... loading genome
+Dec 05 14:00:22 ..... started mapping
+Dec 05 14:17:19 ..... started sorting BAM
+Dec 05 14:19:46 ..... finished successfully
+1258 seconds to completion
+fleet-38
+My SLURM_ARRAY_TASK_ID:  37
+K199_S287_L003
+Dec 05 13:58:57 ..... started STAR run
+Dec 05 13:58:57 ..... loading genome
+Dec 05 14:00:22 ..... started mapping
+Dec 05 14:18:39 ..... started sorting BAM
+Dec 05 14:20:09 ..... finished successfully
+1278 seconds to completion
+fleet-38
+My SLURM_ARRAY_TASK_ID:  38
+K201_S406_L003
+Dec 05 13:58:57 ..... started STAR run
+Dec 05 13:58:57 ..... loading genome
+Dec 05 14:00:22 ..... started mapping
+Dec 05 14:15:15 ..... started sorting BAM
+Dec 05 14:16:54 ..... finished successfully
+1083 seconds to completion
+fleet-29
+My SLURM_ARRAY_TASK_ID:  39
+K202_S405_L003
+Dec 05 15:02:50 ..... started STAR run
+Dec 05 15:02:50 ..... loading genome
+Dec 05 15:04:18 ..... started mapping
+Dec 05 15:15:01 ..... started sorting BAM
+Dec 05 15:16:36 ..... finished successfully
+834 seconds to completion
+drove-4
+My SLURM_ARRAY_TASK_ID:  3
+K115_S383_L003
+Dec 05 11:27:10 ..... started STAR run
+Dec 05 11:27:46 ..... loading genome
+Dec 05 11:29:54 ..... started mapping
+Dec 05 11:43:45 ..... started sorting BAM
+Dec 05 11:44:41 ..... finished successfully
+1061 seconds to completion
+rafter-21
+My SLURM_ARRAY_TASK_ID:  40
+K204_S419_L003
+Dec 05 16:33:50 ..... started STAR run
+Dec 05 16:33:51 ..... loading genome
+Dec 05 16:41:00 ..... started mapping
+Dec 05 17:42:55 ..... started sorting BAM
+Dec 05 17:44:13 ..... finished successfully
+4250 seconds to completion
+rafter-21
+My SLURM_ARRAY_TASK_ID:  41
+K205_S418_L003
+Dec 05 16:33:50 ..... started STAR run
+Dec 05 16:33:51 ..... loading genome
+Dec 05 16:41:00 ..... started mapping
+Dec 05 17:31:21 ..... started sorting BAM
+Dec 05 17:36:35 ..... finished successfully
+3895 seconds to completion
+rafter-34
+My SLURM_ARRAY_TASK_ID:  42
+K206_S302_L003
+Dec 05 16:33:56 ..... started STAR run
+Dec 05 16:33:59 ..... loading genome
+Dec 05 16:41:00 ..... started mapping
+Dec 05 17:27:33 ..... started sorting BAM
+Dec 05 17:31:18 ..... finished successfully
+3725 seconds to completion
+rafter-34
+My SLURM_ARRAY_TASK_ID:  43
+K210_S301_L003
+Dec 05 16:33:56 ..... started STAR run
+Dec 05 16:33:59 ..... loading genome
+Dec 05 16:41:00 ..... started mapping
+Dec 05 17:31:04 ..... started sorting BAM
+Dec 05 17:36:34 ..... finished successfully
+3841 seconds to completion
+rafter-34
+My SLURM_ARRAY_TASK_ID:  44
+K240_S417_L003
+Dec 05 16:33:56 ..... started STAR run
+Dec 05 16:34:00 ..... loading genome
+Dec 05 16:41:00 ..... started mapping
+Dec 05 17:28:20 ..... started sorting BAM
+Dec 05 17:31:51 ..... finished successfully
+3665 seconds to completion
+rafter-33
+My SLURM_ARRAY_TASK_ID:  45
+K241_S416_L003
+Dec 05 16:33:57 ..... started STAR run
+Dec 05 16:34:01 ..... loading genome
+Dec 05 16:41:00 ..... started mapping
+Dec 05 17:31:47 ..... started sorting BAM
+Dec 05 17:38:01 ..... finished successfully
+3893 seconds to completion
+rafter-33
+My SLURM_ARRAY_TASK_ID:  46
+K243_S300_L003
+Dec 05 16:33:57 ..... started STAR run
+Dec 05 16:34:01 ..... loading genome
+Dec 05 16:41:00 ..... started mapping
+Dec 05 17:36:39 ..... started sorting BAM
+Dec 05 17:39:43 ..... finished successfully
+3959 seconds to completion
+rafter-33
+My SLURM_ARRAY_TASK_ID:  47
+K244_S415_L003
+Dec 05 16:33:57 ..... started STAR run
+Dec 05 16:34:01 ..... loading genome
+Dec 05 16:41:00 ..... started mapping
+Dec 05 17:22:43 ..... started sorting BAM
+Dec 05 17:26:49 ..... finished successfully
+3235 seconds to completion
+drove-4
+My SLURM_ARRAY_TASK_ID:  48
+K247_S414_L003
+Dec 05 16:36:07 ..... started STAR run
+Dec 05 16:36:08 ..... loading genome
+Dec 05 16:36:20 ..... started mapping
+Dec 05 17:24:36 ..... started sorting BAM
+Dec 05 17:27:49 ..... finished successfully
+3160 seconds to completion
+drove-17
+My SLURM_ARRAY_TASK_ID:  49
+K264_S413_L003
+Dec 05 16:36:07 ..... started STAR run
+Dec 05 16:36:07 ..... loading genome
+Dec 05 16:36:20 ..... started mapping
+Dec 05 17:23:48 ..... started sorting BAM
+Dec 05 17:27:03 ..... finished successfully
+3099 seconds to completion
+drove-4
+My SLURM_ARRAY_TASK_ID:  4
+K116_S382_L003
+Dec 05 11:27:10 ..... started STAR run
+Dec 05 11:27:46 ..... loading genome
+Dec 05 11:29:54 ..... started mapping
+Dec 05 12:11:54 ..... started sorting BAM
+Dec 05 12:12:20 ..... finished successfully
+2716 seconds to completion
+rafter-21
+My SLURM_ARRAY_TASK_ID:  50
+K270_S427_L003
+Dec 05 16:36:09 ..... started STAR run
+Dec 05 16:37:09 ..... loading genome
+Dec 05 16:41:00 ..... started mapping
+Dec 05 17:24:27 ..... started sorting BAM
+Dec 05 17:28:20 ..... finished successfully
+3257 seconds to completion
+stable-1
+My SLURM_ARRAY_TASK_ID:  51
+K277_S426_L003
+Dec 05 16:40:27 ..... started STAR run
+Dec 05 16:40:28 ..... loading genome
+Dec 05 16:42:37 ..... started mapping
+Dec 05 17:14:11 ..... started sorting BAM
+Dec 05 17:19:13 ..... finished successfully
+2350 seconds to completion
+fleet-9
+My SLURM_ARRAY_TASK_ID:  53
+K279_S424_L003
+Dec 05 16:40:11 ..... started STAR run
+Dec 05 16:40:13 ..... loading genome
+Dec 05 16:42:37 ..... started mapping
+Dec 05 17:38:55 ..... started sorting BAM
+Dec 05 17:40:06 ..... finished successfully
+3612 seconds to completion
+fleet-9
+My SLURM_ARRAY_TASK_ID:  54
+K280_S423_L003
+Dec 05 16:40:11 ..... started STAR run
+Dec 05 16:40:14 ..... loading genome
+Dec 05 16:42:37 ..... started mapping
+Dec 05 17:14:31 ..... started sorting BAM
+Dec 05 17:20:18 ..... finished successfully
+2436 seconds to completion
+fleet-8
+My SLURM_ARRAY_TASK_ID:  55
+K281_S422_L003
+Dec 05 16:40:10 ..... started STAR run
+Dec 05 16:40:11 ..... loading genome
+Dec 05 16:40:21 ..... started mapping
+Dec 05 17:26:58 ..... started sorting BAM
+Dec 05 17:33:01 ..... finished successfully
+3421 seconds to completion
+fleet-8
+My SLURM_ARRAY_TASK_ID:  56
+K282_S421_L003
+Dec 05 16:40:10 ..... started STAR run
+Dec 05 16:40:11 ..... loading genome
+Dec 05 16:40:21 ..... started mapping
+Dec 05 17:30:14 ..... started sorting BAM
+Dec 05 17:34:05 ..... finished successfully
+3439 seconds to completion
+fleet-16
+My SLURM_ARRAY_TASK_ID:  57
+K283_S420_L003
+Dec 05 16:40:27 ..... started STAR run
+Dec 05 16:40:28 ..... loading genome
+Dec 05 16:42:37 ..... started mapping
+Dec 05 17:27:03 ..... started sorting BAM
+Dec 05 17:29:28 ..... finished successfully
+3060 seconds to completion
+fleet-38
+My SLURM_ARRAY_TASK_ID:  58
+K284_S435_L003
+Dec 05 16:40:10 ..... started STAR run
+Dec 05 16:40:11 ..... loading genome
+Dec 05 16:42:37 ..... started mapping
+Dec 05 17:19:58 ..... started sorting BAM
+Dec 05 17:25:33 ..... finished successfully
+2859 seconds to completion
+fleet-38
+My SLURM_ARRAY_TASK_ID:  59
+K285_S434_L003
+Dec 05 16:40:10 ..... started STAR run
+Dec 05 16:40:11 ..... loading genome
+Dec 05 16:42:37 ..... started mapping
+Dec 05 17:24:04 ..... started sorting BAM
+Dec 05 17:30:38 ..... finished successfully
+3172 seconds to completion
+rafter-24
+My SLURM_ARRAY_TASK_ID:  5
+K117_S381_L003
+Dec 05 11:27:16 ..... started STAR run
+Dec 05 11:27:20 ..... loading genome
+Dec 05 11:28:51 ..... started mapping
+Dec 05 12:11:44 ..... started sorting BAM
+Dec 05 12:12:47 ..... finished successfully
+2743 seconds to completion
+fleet-38
+My SLURM_ARRAY_TASK_ID:  60
+K286_S433_L003
+Dec 05 16:40:10 ..... started STAR run
+Dec 05 16:40:11 ..... loading genome
+Dec 05 16:42:37 ..... started mapping
+Dec 05 17:31:58 ..... started sorting BAM
+Dec 05 17:40:04 ..... finished successfully
+3622 seconds to completion
+fleet-38
+My SLURM_ARRAY_TASK_ID:  61
+K287_S432_L003
+Dec 05 16:40:10 ..... started STAR run
+Dec 05 16:40:11 ..... loading genome
+Dec 05 16:42:37 ..... started mapping
+Dec 05 17:25:45 ..... started sorting BAM
+Dec 05 17:30:59 ..... finished successfully
+3358 seconds to completion
+fleet-30
+My SLURM_ARRAY_TASK_ID:  64
+K290_S429_L003
+Dec 05 16:40:10 ..... started STAR run
+Dec 05 16:40:11 ..... loading genome
+Dec 05 16:42:37 ..... started mapping
+Dec 05 17:25:23 ..... started sorting BAM
+Dec 05 17:30:46 ..... finished successfully
+3222 seconds to completion
+fleet-30
+My SLURM_ARRAY_TASK_ID:  65
+K291_S428_L003
+Dec 05 16:40:10 ..... started STAR run
+Dec 05 16:40:11 ..... loading genome
+Dec 05 16:42:37 ..... started mapping
+Dec 05 17:20:15 ..... started sorting BAM
+Dec 05 17:25:06 ..... finished successfully
+2828 seconds to completion
+fleet-29
+My SLURM_ARRAY_TASK_ID:  66
+K292_S443_L003
+Dec 05 16:40:11 ..... started STAR run
+Dec 05 16:40:13 ..... loading genome
+Dec 05 16:42:37 ..... started mapping
+Dec 05 17:08:20 ..... started sorting BAM
+Dec 05 17:13:09 ..... finished successfully
+2001 seconds to completion
+fleet-36
+My SLURM_ARRAY_TASK_ID:  67
+K301_S442_L003
+Dec 05 16:40:10 ..... started STAR run
+Dec 05 16:40:11 ..... loading genome
+Dec 05 16:42:37 ..... started mapping
+Dec 05 17:23:37 ..... started sorting BAM
+Dec 05 17:30:09 ..... finished successfully
+3186 seconds to completion
+fleet-33
+My SLURM_ARRAY_TASK_ID:  68
+K314_S441_L003
+Dec 05 16:40:11 ..... started STAR run
+Dec 05 16:40:12 ..... loading genome
+Dec 05 16:45:47 ..... started mapping
+3466 seconds to completion
+fleet-33
+My SLURM_ARRAY_TASK_ID:  69
+K327_S440_L003
+Dec 05 16:40:11 ..... started STAR run
+Dec 05 16:40:12 ..... loading genome
+Dec 05 16:45:47 ..... started mapping
+Dec 05 17:29:49 ..... started sorting BAM
+Dec 05 17:34:36 ..... finished successfully
+3452 seconds to completion
+rafter-24
+My SLURM_ARRAY_TASK_ID:  6
+K118_S396_L003
+Dec 05 11:27:16 ..... started STAR run
+Dec 05 11:27:20 ..... loading genome
+Dec 05 11:28:51 ..... started mapping
+Dec 05 12:02:17 ..... started sorting BAM
+Dec 05 12:03:05 ..... finished successfully
+2155 seconds to completion
+fleet-35
+My SLURM_ARRAY_TASK_ID:  70
+K74_S388_L003
+Dec 05 16:40:10 ..... started STAR run
+Dec 05 16:40:11 ..... loading genome
+Dec 05 16:40:21 ..... started mapping
+Dec 05 17:34:57 ..... started sorting BAM
+Dec 05 17:39:26 ..... finished successfully
+3571 seconds to completion
+fleet-35
+My SLURM_ARRAY_TASK_ID:  71
+K81_S387_L003
+Dec 05 16:40:10 ..... started STAR run
+Dec 05 16:40:11 ..... loading genome
+Dec 05 16:40:22 ..... started mapping
+Dec 05 17:29:03 ..... started sorting BAM
+Dec 05 17:33:39 ..... finished successfully
+3433 seconds to completion
+fleet-35
+My SLURM_ARRAY_TASK_ID:  72
+K89_S386_L003
+Dec 05 16:40:10 ..... started STAR run
+Dec 05 16:40:11 ..... loading genome
+Dec 05 16:40:21 ..... started mapping
+Dec 05 17:27:06 ..... started sorting BAM
+Dec 05 17:32:51 ..... finished successfully
+3373 seconds to completion
+rafter-6
+My SLURM_ARRAY_TASK_ID:  79
+SJ_138_S451_L003
+Dec 05 16:40:10 ..... started STAR run
+Dec 05 16:40:11 ..... loading genome
+Dec 05 16:40:23 ..... started mapping
+Dec 05 17:28:36 ..... started sorting BAM
+Dec 05 17:33:18 ..... finished successfully
+3426 seconds to completion
+rafter-24
+My SLURM_ARRAY_TASK_ID:  7
+K119_S395_L003
+Dec 05 11:27:16 ..... started STAR run
+Dec 05 11:27:20 ..... loading genome
+Dec 05 11:28:51 ..... started mapping
+Dec 05 12:03:52 ..... started sorting BAM
+Dec 05 12:04:33 ..... finished successfully
+2245 seconds to completion
+rafter-6
+My SLURM_ARRAY_TASK_ID:  80
+SJ_139_S450_L003
+Dec 05 16:40:10 ..... started STAR run
+Dec 05 16:40:11 ..... loading genome
+Dec 05 16:40:23 ..... started mapping
+Dec 05 17:28:19 ..... started sorting BAM
+Dec 05 17:32:58 ..... finished successfully
+3414 seconds to completion
+rafter-5
+My SLURM_ARRAY_TASK_ID:  81
+SJ_140_S449_L003
+Dec 05 16:40:10 ..... started STAR run
+Dec 05 16:40:12 ..... loading genome
+Dec 05 16:40:23 ..... started mapping
+Dec 05 17:30:35 ..... started sorting BAM
+Dec 05 17:35:06 ..... finished successfully
+3409 seconds to completion
+rafter-5
+My SLURM_ARRAY_TASK_ID:  82
+SJ_141_S448_L003
+Dec 05 16:40:10 ..... started STAR run
+Dec 05 16:40:12 ..... loading genome
+Dec 05 16:40:22 ..... started mapping
+Dec 05 17:24:37 ..... started sorting BAM
+Dec 05 17:28:56 ..... finished successfully
+2978 seconds to completion
+fleet-23
+My SLURM_ARRAY_TASK_ID:  87
+SJ_146_S459_L003
+Dec 05 16:40:27 ..... started STAR run
+Dec 05 16:40:28 ..... loading genome
+Dec 05 16:42:37 ..... started mapping
+Dec 05 17:20:25 ..... started sorting BAM
+Dec 05 17:24:48 ..... finished successfully
+2779 seconds to completion
+fleet-26
+My SLURM_ARRAY_TASK_ID:  88
+SJ_147_S458_L003
+Dec 05 16:40:10 ..... started STAR run
+Dec 05 16:40:12 ..... loading genome
+Dec 05 16:40:22 ..... started mapping
+Dec 05 17:32:29 ..... started sorting BAM
+Dec 05 17:37:42 ..... finished successfully
+3495 seconds to completion
+fleet-26
+My SLURM_ARRAY_TASK_ID:  89
+SJ_148_S457_L003
+Dec 05 16:40:10 ..... started STAR run
+Dec 05 16:40:12 ..... loading genome
+Dec 05 16:40:22 ..... started mapping
+Dec 05 17:30:29 ..... started sorting BAM
+Dec 05 17:34:19 ..... finished successfully
+3442 seconds to completion
+fleet-38
+My SLURM_ARRAY_TASK_ID:  8
+K120_S394_L003
+Dec 05 11:27:36 ..... started STAR run
+Dec 05 11:27:37 ..... loading genome
+Dec 05 11:28:58 ..... started mapping
+Dec 05 12:03:17 ..... started sorting BAM
+Dec 05 12:03:57 ..... finished successfully
+2189 seconds to completion
+fleet-13
+My SLURM_ARRAY_TASK_ID:  92
+SJ_165_S474_L003
+Dec 05 16:40:10 ..... started STAR run
+Dec 05 16:40:12 ..... loading genome
+Dec 05 16:40:22 ..... started mapping
+Dec 05 17:27:46 ..... started sorting BAM
+Dec 05 17:31:19 ..... finished successfully
+3398 seconds to completion
+fleet-11
+My SLURM_ARRAY_TASK_ID:  93
+SJ_167_S473_L003
+Dec 05 16:40:10 ..... started STAR run
+Dec 05 16:40:11 ..... loading genome
+Dec 05 16:40:20 ..... started mapping
+Dec 05 17:31:31 ..... started sorting BAM
+Dec 05 17:38:15 ..... finished successfully
+3528 seconds to completion
+fleet-14
+My SLURM_ARRAY_TASK_ID:  94
+SJ_168_S472_L003
+Dec 05 16:40:10 ..... started STAR run
+Dec 05 16:40:11 ..... loading genome
+Dec 05 16:42:37 ..... started mapping
+Dec 05 17:25:31 ..... started sorting BAM
+Dec 05 17:28:28 ..... finished successfully
+2995 seconds to completion
+fleet-14
+My SLURM_ARRAY_TASK_ID:  95
+SJ_193_S469_L003
+Dec 05 16:40:10 ..... started STAR run
+Dec 05 16:40:11 ..... loading genome
+Dec 05 16:42:37 ..... started mapping
+Dec 05 17:30:21 ..... started sorting BAM
+Dec 05 17:33:31 ..... finished successfully
+3423 seconds to completion
+drove-2
+My SLURM_ARRAY_TASK_ID:  9
+K121_S393_L003
+Dec 05 11:27:36 ..... started STAR run
+Dec 05 11:27:36 ..... loading genome
+Dec 05 11:27:55 ..... started mapping
+Dec 05 12:01:55 ..... started sorting BAM
+Dec 05 12:02:29 ..... finished successfully
+2102 seconds to completion

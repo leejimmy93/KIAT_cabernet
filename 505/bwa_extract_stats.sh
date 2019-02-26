@@ -16,7 +16,8 @@ for i in $files
         then
             echo ${i} > BWA.temp.0
             cat ${i}/${i}.stats | head -5 | tail -1| awk '{print $5}' | sed 's/(//g' | sed 's/%//g' > BWA.temp.1
-            cat ${i}/final.stats | head -1 | awk '{print $1}' > BWA.temp.2
+            # cat ${i}/${i}.stats | head -1| awk '{print $1}' > BWA.temp.1
+	    cat ${i}/final.stats | head -1 | awk '{print $1}' > BWA.temp.2
             paste BWA.temp.0 BWA.temp.1 BWA.temp.2 > BWA.temp
             cat BWA.temp >> BWA_Stats.tab
     else

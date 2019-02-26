@@ -1,11 +1,11 @@
 #!/bin/bash 
 #SBATCH --partition=production # partition to submit to
 #SBATCH --job-name="Prep4SNPcalling" # Job name
-#SBATCH --array=1-238
+#SBATCH --array=1-1
 #SBATCH --nodes=1 # single node, anything more than 1 will not run
 #SBATCH --ntasks=1 # equivalent to cpus, stick to around 20 max on gc64, or gc128 nodes
 #SBATCH --mem=20000 # in MB, memory pool all cores, default is 2GB per cpu
-#SBATCH --time=0-03:30:00  # expected time of completion in hours, minutes, seconds, default 1-day
+#SBATCH --time=1-03:30:00  # expected time of completion in hours, minutes, seconds, default 1-day
 #SBATCH --output=Prep4SNPcalling_%A_%a.out # STDOUT
 #SBATCH --error=Prep4SNPcalling_%A_%a.err # STDERR
 #SBATCH --mail-user=rzl0007@tigermail.auburn.edu # does not work yet
@@ -17,7 +17,7 @@ aklog
 start=`date +%s`
 module load samtools/1.5
 
-cd /share/malooflab/Ruijuan/505/WGS/mapping_DaAe
+cd /share/malooflab/Ruijuan/505/WGS/DaAe_to_DaAe/mapping
 
 # mapping
 echo "My SLURM_ARRAY_TASK_ID: " $SLURM_ARRAY_TASK_ID

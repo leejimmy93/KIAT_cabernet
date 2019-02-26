@@ -11,21 +11,34 @@
 #SBATCH --mail-user=rzl0007@tigermail.auburn.edu # does not work yet
 #SBATCH --mail-type=ALL # does not work yet
 # This will be run once for a single process
+aklog
 
 /bin/hostname
 
 start=`date +%s`
-# module load bwa/0.7.16a 
+module load bwa/0.7.16a 
+module load samtools/1.5
 
 cd /share/malooflab/Ruijuan/505/WGS/trimmed
 
 # mapping 
 echo "My SLURM_ARRAY_TASK_ID: " $SLURM_ARRAY_TASK_ID
-sample=`sed "${SLURM_ARRAY_TASK_ID}q;d" sample_list_trimming`
+sample=`sed "${SLURM_ARRAY_TASK_ID}q;d" sample_list`
+
+out_dir=/share/malooflab/Ruijuan/505/WGS/mapping_DaAe/
 
 echo ${sample} 
 
-bwa mem -t 10 /share/malooflab/Ruijuan/reference/Brassica_napus_v4.1.chromosomes.fa ${sample}/${sample}_paired_1.fq.gz  ${sample}/${sample}_paired_2.fq.gz | samtools view -bT /share/malooflab/Ruijuan/reference/Brassica_napus_v4.1.chromosomes.fa -@ 10 | samtools sort --output-fmt BAM -@ 10 > /share/malooflab/Ruijuan/505/WGS/mapping/${sample}.bam   
+bwa mem -t 10 /share/malooflab/John/KIAT/MASTER_DATA_ANALYSIS/BWA/Assemblies/B.napus_Final.fa.masked ${sample}/${sample}_paired_1.fq.gz ${sample}/${sample}_paired_2.fq.gz > $out_dir/${sample}_tmp1.sam 
+
+samtools view $out_dir/${sample}_tmp1.sam -bT /share/malooflab/John/KIAT/MASTER_DATA_ANALYSIS/BWA/Assemblies/B.napus_Final.fa.masked -@ 10 > $out_dir/${sample}_tmp1.bam 
+
+samtools sort -@ 10 $out_dir/${sample}_tmp1.bam > $out_dir/${sample}.bam   
+
+rm $out_dir/${sample}_tmp1.sam
+rm $out_dir/${sample}_tmp1.bam 
+
 end=`date +%s`
 runtime=$((end-start))
 echo $runtime seconds to completion
+
